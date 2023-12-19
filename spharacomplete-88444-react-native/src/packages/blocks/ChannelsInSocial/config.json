@@ -1,0 +1,36 @@
+{
+  "id": "ChannelsInSocial",
+  "version": "1.0.0",
+  "status": "release",
+  "path": "./packages/blocks/ChannelsInSocial",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ChannelsInSocial"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ChannelsInSocial": {
+        "file": "Channels.tsx",
+        "extends": "ChannelsController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ChannelsController",
+            "path": "./ChannelsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ChannelsController"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "DashBord",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/DashBord",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Dashbord"
+    ],
+    "assembler-dependencies": [
+      "\"react-native-responsive-fontsize\": \"^0.4.3\"", 
+      "\"react-native-responsive-screen\": \"^1.4.1\"",
+      "\"moment\": \"^2.29.1\""
+    ],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "DashBord": {
+        "file": "Dashbord.tsx",
+        "extends": "DashbordController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": []
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Dashbord"
+    ],
+    "assembler-dependencies": [
+      "\"react-native-responsive-fontsize\": \"^0.4.3\"", 
+      "\"react-native-responsive-screen\": \"^1.4.1\"",
+      "\"moment\": \"^2.29.1\""
+    ],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {}
+  }
+}

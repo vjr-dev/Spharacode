@@ -1,0 +1,40 @@
+{
+  "id": "AmbulanceScreen",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/AmbulanceScreen",
+  "assembler-adapters": [
+    "AmbulanceAdapter"
+  ],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Ambulance"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "Ambulance"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Ambulance": {
+        "file": "Ambulance.tsx",
+        "extends": "AmbulanceController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "AmbulanceController",
+            "path": "./AmbulanceController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./AmbulanceController"
+          }
+        ]
+      }
+    }
+  }
+  
+}

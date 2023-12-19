@@ -1,0 +1,356 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`customform User navigates to customform 1`] = `
+<ScrollView
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "flex": 1,
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+    testID="btnHideKeyboard"
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ffffffff",
+            "flex": 1,
+            "marginLeft": "auto",
+            "marginRight": "auto",
+            "maxWidth": 650,
+            "paddingHorizontal": 16,
+            "paddingVertical": 20,
+            "width": "100%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "marginBottom": 20,
+              "width": "100%",
+            }
+          }
+        >
+          <GenericLabel
+            align="left"
+            color="rgba(31, 31, 34, 0.6)"
+            fontSize={14}
+            isUpperCase={false}
+            lineHeight={16}
+            mb={0}
+            ml={0}
+            mr={0}
+            mt={0}
+            pb={0}
+            pl={0}
+            pr={0}
+            pt={0}
+            underline={false}
+          >
+            Name of Shop
+          </GenericLabel>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "borderBottomColor": "rgba(28, 28, 30, 0.3)",
+                "borderBottomWidth": 1,
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Component
+              allowFontScaling={true}
+              onChangeText={[Function]}
+              rejectResponderTermination={true}
+              style={
+                Object {
+                  "color": "rgb(31, 31, 34)",
+                  "flex": 1,
+                  "fontSize": 16,
+                  "fontWeight": "600",
+                  "height": 48,
+                  "width": "100%",
+                }
+              }
+              testID="shopName"
+              underlineColorAndroid="transparent"
+              value=""
+            />
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "marginBottom": 20,
+              "width": "100%",
+            }
+          }
+        >
+          <GenericLabel
+            align="left"
+            color="rgba(31, 31, 34, 0.6)"
+            fontSize={14}
+            isUpperCase={false}
+            lineHeight={16}
+            mb={0}
+            ml={0}
+            mr={0}
+            mt={0}
+            pb={0}
+            pl={0}
+            pr={0}
+            pt={0}
+            underline={false}
+          >
+            Services Provided
+          </GenericLabel>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "flexWrap": "wrap",
+                "justifyContent": "space-between",
+                "marginTop": 10,
+                "width": "100%",
+              }
+            }
+          >
+            <View
+              key="SERVICES_0"
+              style={
+                Object {
+                  "marginBottom": 16,
+                  "width": "48%",
+                }
+              }
+            >
+              <SelectionWrapper
+                isSelected={false}
+                onClearPress={[Function]}
+                onPress={[Function]}
+                option={
+                  Object {
+                    "label": "Wholesaler",
+                    "value": 1,
+                  }
+                }
+              />
+            </View>
+            <View
+              key="SERVICES_1"
+              style={
+                Object {
+                  "marginBottom": 16,
+                  "width": "48%",
+                }
+              }
+            >
+              <SelectionWrapper
+                isSelected={false}
+                onClearPress={[Function]}
+                onPress={[Function]}
+                option={
+                  Object {
+                    "label": "Manufacturer",
+                    "value": 2,
+                  }
+                }
+              />
+            </View>
+            <View
+              key="SERVICES_2"
+              style={
+                Object {
+                  "marginBottom": 16,
+                  "width": "48%",
+                }
+              }
+            >
+              <SelectionWrapper
+                isSelected={false}
+                onClearPress={[Function]}
+                onPress={[Function]}
+                option={
+                  Object {
+                    "label": "Hallmarker",
+                    "value": 3,
+                  }
+                }
+              />
+            </View>
+            <View
+              key="SERVICES_3"
+              style={
+                Object {
+                  "marginBottom": 16,
+                  "width": "48%",
+                }
+              }
+            >
+              <SelectionWrapper
+                isSelected={false}
+                onClearPress={[Function]}
+                onPress={[Function]}
+                option={
+                  Object {
+                    "label": "Retailer",
+                    "value": 4,
+                  }
+                }
+              />
+            </View>
+          </View>
+        </View>
+        <ForwardRef
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "rgb(205, 149, 12)",
+              "borderRadius": 4,
+              "justifyContent": "center",
+              "marginBottom": 20,
+              "paddingVertical": 16,
+              "width": "100%",
+            }
+          }
+          testID="submitButton"
+        >
+          <Text>
+            Submit
+          </Text>
+        </ForwardRef>
+        <Component
+          hardwareAccelerated={false}
+          transparent={true}
+          visible={false}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "rgba(255, 255, 255, 0.6)",
+                "flex": 1,
+                "justifyContent": "center",
+                "paddingHorizontal": 18,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "rgb(243, 243, 243)",
+                  "borderRadius": 10,
+                  "paddingHorizontal": 16,
+                  "paddingVertical": 32,
+                  "width": "100%",
+                }
+              }
+            >
+              <GenericLabel
+                align="center"
+                color="rgb(46, 58, 89)"
+                fontSize={24}
+                isUpperCase={false}
+                lineHeight={32}
+                mb={0}
+                ml={0}
+                mr={0}
+                mt={0}
+                pb={0}
+                pl={0}
+                pr={0}
+                pt={0}
+                underline={false}
+              >
+                Congratulations!
+              </GenericLabel>
+              <GenericLabel
+                align="center"
+                color="rgb(46, 58, 89)"
+                fontSize={24}
+                isUpperCase={false}
+                lineHeight={32}
+                mb={0}
+                ml={0}
+                mr={0}
+                mt={0}
+                pb={0}
+                pl={0}
+                pr={0}
+                pt={0}
+                underline={false}
+              >
+                Your form is submitted
+              </GenericLabel>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "justifyContent": "center",
+                    "width": "100%",
+                  }
+                }
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../packages/blocks/customform/assets/success_modal_image.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "height": 158,
+                      "width": 264,
+                    }
+                  }
+                />
+              </View>
+              <ForwardRef
+                onPress={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "rgb(205, 149, 12)",
+                    "borderRadius": 4,
+                    "justifyContent": "center",
+                    "marginTop": 20,
+                    "paddingVertical": 16,
+                    "width": "100%",
+                  }
+                }
+              >
+                <GenericLabel
+                  align="left"
+                  color="#FFFFFF"
+                  fontSize={16}
+                  isUpperCase={false}
+                  mb={0}
+                  ml={0}
+                  mr={0}
+                  mt={0}
+                  onPress={[Function]}
+                  pb={0}
+                  pl={0}
+                  pr={0}
+                  pt={0}
+                  underline={false}
+                >
+                  Continue
+                </GenericLabel>
+              </ForwardRef>
+            </View>
+          </View>
+        </Component>
+      </View>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollView>
+`;

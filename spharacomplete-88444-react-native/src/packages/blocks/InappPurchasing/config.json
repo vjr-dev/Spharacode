@@ -1,0 +1,65 @@
+{
+  "id": "InappPurchasing",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/InappPurchasing",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "InappPurchasing"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "InappPurchasing": {
+        "file": "InappPurchasing.tsx",
+        "extends": "InappPurchasingController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "InappPurchasingController",
+            "path": "./InappPurchasingController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./InappPurchasingController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "InappPurchasing"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "InappPurchasingBlock": {
+        "file": "InappPurchasingBlock.tsx",
+        "extends": "InappPurchasingController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "InappPurchasingController",
+            "path": "./InappPurchasingController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./InappPurchasingController"
+          }
+        ]
+      }
+    }
+  }
+}

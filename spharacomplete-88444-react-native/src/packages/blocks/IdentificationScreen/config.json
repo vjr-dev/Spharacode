@@ -1,0 +1,36 @@
+{
+  "id": "IdentificationScreen",
+  "version": "1.0.0",
+  "status": "release",
+  "path": "./packages/blocks/IdentificationScreen",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "IdentificationScreen"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "IdentificationScreen": {
+        "file": "IdentificationScreen.tsx",
+        "extends": "IdentificationController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "IdentificationController",
+            "path": "./IdentificationController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./IdentificationController"
+          }
+        ]
+      }
+    }
+  }
+}

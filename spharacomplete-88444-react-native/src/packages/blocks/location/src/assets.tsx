@@ -1,0 +1,9 @@
+export const imgLocation = require("../assets/location.png");
+export const imgLogo = require("../assets/logo.png");
+export const back1 = require("../assets/image_background-1.png");
+export const back2 = require("../assets/image_background-2.png");
+export const right_arrow = require("../assets/right_arrow.png");
+export const alert_icon = require("../assets/alert_icon.png");
+export const chat = require("../assets/chat.png");
+export const call = require("../assets/call.png");
+export const share = require("../assets/share.png");

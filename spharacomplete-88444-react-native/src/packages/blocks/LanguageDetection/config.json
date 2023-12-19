@@ -1,0 +1,65 @@
+{
+  "id": "LanguageDetection",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/LanguageDetection",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "LanguageDetection"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "LanguageDetection": {
+        "file": "LanguageDetection.tsx",
+        "extends": "LanguageDetectionController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "LanguageDetectionController",
+            "path": "./LanguageDetectionController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./LanguageDetectionController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "LanguageDetection"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "LanguageDetectionBlock": {
+        "file": "LanguageDetectionBlock.tsx",
+        "extends": "LanguageDetectionController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "LanguageDetectionController",
+            "path": "./LanguageDetectionController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./LanguageDetectionController"
+          }
+        ]
+      }
+    }
+  }
+}

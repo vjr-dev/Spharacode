@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "859705600824",
+    "project_id": "sphara-1a276",
+    "storage_bucket": "sphara-1a276.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:859705600824:android:e8b433569631bd7dc62fcd",
+        "android_client_info": {
+          "package_name": "com.SpharaComplete"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "859705600824-19kgidqe8amjh5t6o109m4pkatrf38pj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo1TwvMCLhOUMsNS4BXd5WFNyKtLK68eE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "859705600824-19kgidqe8amjh5t6o109m4pkatrf38pj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "859705600824-on2r0me52bgkd3ct7sgkhgq1meqeuekg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sphara.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

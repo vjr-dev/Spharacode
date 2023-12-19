@@ -1,0 +1,904 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GroupProfileChat User navigates to GroupProfileChat 1`] = `
+<ImageBackground
+  source={
+    Object {
+      "testUri": "../../../packages/blocks/GroupProfileChat/assets/image_background-1.png",
+    }
+  }
+  style={
+    Object {
+      "flex": 1,
+      "height": 1334,
+      "width": 750,
+    }
+  }
+>
+  <ImageBackground
+    source={
+      Object {
+        "testUri": "../../../packages/blocks/GroupProfileChat/assets/image_background-2.png",
+      }
+    }
+    style={
+      Object {
+        "flex": 1,
+        "height": 1334,
+        "width": 750,
+      }
+    }
+  >
+    <SafeAreaView
+      style={
+        Object {
+          "alignItems": "center",
+        }
+      }
+    >
+      <ScrollViewMock
+        showsVerticalScrollIndicator={false}
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "width": 750,
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+                "padding": 20,
+              }
+            }
+            testID="backBtn"
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/GroupProfileChat/assets/image_back.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 20,
+                  "tintColor": "rgb(255,255,255)",
+                  "width": 20,
+                }
+              }
+            />
+          </TouchableOpacity>
+          <View
+            style={
+              Object {
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "rgb(255,255,255)",
+                  "fontSize": 15,
+                  "fontWeight": "700",
+                }
+              }
+            >
+              Group Name
+            </Text>
+          </View>
+          <TouchableOpacity
+            activeOpacity={0.2}
+            style={
+              Object {
+                "width": "15%",
+              }
+            }
+          />
+        </View>
+        <View>
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/GroupProfileChat/assets/profile.png",
+              }
+            }
+            style={
+              Object {
+                "alignSelf": "center",
+                "borderColor": "white",
+                "borderRadius": 50,
+                "borderWidth": 1,
+                "height": 118,
+                "marginVertical": 20,
+                "width": 118,
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "alignSelf": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "width": 750,
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            style={
+              Object {
+                "alignItems": "center",
+                "borderColor": "#404040",
+                "borderRadius": 19,
+                "borderWidth": 1,
+                "height": 38,
+                "justifyContent": "center",
+                "left": 100,
+                "width": 38,
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/GroupProfileChat/assets/video.png",
+                }
+              }
+              style={
+                Object {
+                  "height": "60%",
+                  "tintColor": "rgba(255,211,154,1)",
+                  "width": "60%",
+                }
+              }
+            />
+          </TouchableOpacity>
+          <TouchableOpacity
+            activeOpacity={0.2}
+            style={
+              Object {
+                "alignItems": "center",
+                "borderColor": "#404040",
+                "borderRadius": 19,
+                "borderWidth": 1,
+                "height": 38,
+                "justifyContent": "center",
+                "width": 38,
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/GroupProfileChat/assets/call.png",
+                }
+              }
+              style={
+                Object {
+                  "height": "60%",
+                  "tintColor": "rgba(255,211,154,1)",
+                  "width": "60%",
+                }
+              }
+            />
+          </TouchableOpacity>
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "borderColor": "#404040",
+                "borderRadius": 19,
+                "borderWidth": 1,
+                "height": 38,
+                "justifyContent": "center",
+                "right": 100,
+                "width": 38,
+              }
+            }
+            testID="optionBtn"
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/GroupProfileChat/assets/option.png",
+                }
+              }
+              style={
+                Object {
+                  "height": "60%",
+                  "tintColor": "rgba(255,211,154,1)",
+                  "width": "60%",
+                }
+              }
+            />
+          </TouchableOpacity>
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#a1a1a1",
+              "paddingBottom": 4,
+              "paddingStart": 15,
+              "paddingTop": 40,
+            }
+          }
+        >
+          Invite to group via link
+        </Text>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#363636",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "alignSelf": "center",
+                "color": "rgba(255,211,154,1)",
+                "paddingStart": 15,
+              }
+            }
+          >
+            http://sphara.app/Devops-Group
+          </Text>
+          <TouchableOpacity
+            activeOpacity={0.2}
+            style={
+              Object {
+                "alignItems": "center",
+                "borderColor": "#404040",
+                "borderRadius": 19,
+                "borderWidth": 1,
+                "height": 38,
+                "justifyContent": "center",
+                "marginVertical": 10,
+                "right": 15,
+                "width": 38,
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/GroupProfileChat/assets/share.png",
+                }
+              }
+              style={
+                Object {
+                  "height": "60%",
+                  "tintColor": "rgba(255,211,154,1)",
+                  "width": "60%",
+                }
+              }
+            />
+          </TouchableOpacity>
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#a1a1a1",
+              "paddingBottom": 4,
+              "paddingStart": 15,
+              "paddingTop": 20,
+            }
+          }
+        >
+          About Group
+        </Text>
+        <Text
+          style={
+            Object {
+              "backgroundColor": "#363636",
+              "color": "#a1a1a1",
+              "paddingBottom": 3,
+              "paddingStart": 15,
+              "paddingTop": 20,
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "color": "#a1a1a1",
+              "paddingBottom": 4,
+              "paddingStart": 15,
+              "paddingTop": 27,
+            }
+          }
+        >
+          Settings
+        </Text>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#363636",
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginVertical": 15,
+                "width": 750,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#cdcdcd",
+                  "fontSize": 17,
+                  "left": 15,
+                }
+              }
+            >
+              Mute Group
+            </Text>
+            <Switch
+              ios_backgroundColor="#000"
+              onValueChange={[Function]}
+              style={
+                Object {
+                  "right": 10,
+                  "transform": Array [
+                    Object {
+                      "scaleX": 0.8,
+                    },
+                    Object {
+                      "scaleY": 0.8,
+                    },
+                  ],
+                }
+              }
+              testID="switch1"
+              thumbColor="rgb(255,255,255)"
+              trackColor={
+                Object {
+                  "false": "rgb(0,0,0)",
+                  "true": "rgba(255,138,73,1)",
+                }
+              }
+              value={false}
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginVertical": 5,
+                "width": 750,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#cdcdcd",
+                  "fontSize": 17,
+                  "left": 15,
+                }
+              }
+            >
+              Aggregate Notification
+            </Text>
+            <Switch
+              ios_backgroundColor="#000"
+              onValueChange={[Function]}
+              style={
+                Object {
+                  "right": 10,
+                  "transform": Array [
+                    Object {
+                      "scaleX": 0.8,
+                    },
+                    Object {
+                      "scaleY": 0.8,
+                    },
+                  ],
+                }
+              }
+              testID="switch2"
+              thumbColor="rgb(255,255,255)"
+              trackColor={
+                Object {
+                  "false": "rgb(0,0,0)",
+                  "true": "rgba(255,138,73,1)",
+                }
+              }
+              value={false}
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginVertical": 16,
+                "width": 750,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#cdcdcd",
+                  "fontSize": 17,
+                  "left": 15,
+                }
+              }
+            >
+              Set Background
+            </Text>
+            <TouchableOpacity
+              activeOpacity={0.2}
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "right": 17,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#cdcdcd",
+                    "fontSize": 17,
+                  }
+                }
+              >
+                Default
+              </Text>
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../packages/blocks/GroupProfileChat/assets/next.png",
+                  }
+                }
+                style={
+                  Object {
+                    "alignSelf": "center",
+                    "height": 22,
+                    "marginLeft": 10,
+                    "tintColor": "#cdcdcd",
+                    "width": 22,
+                  }
+                }
+              />
+            </TouchableOpacity>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginVertical": 16,
+                "width": 750,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#cdcdcd",
+                  "fontSize": 17,
+                  "left": 15,
+                }
+              }
+            >
+              Media
+            </Text>
+            <TouchableOpacity
+              activeOpacity={0.2}
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "right": 17,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#cdcdcd",
+                    "fontSize": 17,
+                  }
+                }
+              >
+                10 items 
+              </Text>
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../packages/blocks/GroupProfileChat/assets/next.png",
+                  }
+                }
+                style={
+                  Object {
+                    "alignSelf": "center",
+                    "height": 22,
+                    "marginLeft": 5,
+                    "tintColor": "#cdcdcd",
+                    "width": 22,
+                  }
+                }
+              />
+            </TouchableOpacity>
+          </View>
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#a1a1a1",
+              "paddingBottom": 4,
+              "paddingStart": 15,
+              "paddingTop": 27,
+            }
+          }
+        >
+          Group Admins
+        </Text>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#363636",
+              "width": "100%",
+            }
+          }
+        >
+          <FlatList
+            ListFooterComponent={
+              <View
+                style={
+                  Object {
+                    "justifyContent": "center",
+                    "marginHorizontal": 20,
+                  }
+                }
+              >
+                <TouchableOpacity
+                  activeOpacity={0.2}
+                  onPress={[Function]}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "borderColor": "rgb(163,164,165)",
+                      "borderRadius": 50,
+                      "borderWidth": 1,
+                      "height": 107,
+                      "justifyContent": "center",
+                      "width": 107,
+                    }
+                  }
+                  testID="addNewGroupAdminsBtn"
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "rgb(163,164,165)",
+                        "fontSize": 39,
+                      }
+                    }
+                  >
+                    +
+                  </Text>
+                </TouchableOpacity>
+                <Text
+                  style={
+                    Object {
+                      "alignSelf": "flex-end",
+                      "color": "rgb(91,91,92)",
+                      "paddingBottom": 10,
+                      "paddingTop": 6,
+                    }
+                  }
+                >
+                  Add new
+                </Text>
+              </View>
+            }
+            data={
+              Array [
+                Object {
+                  "id": 1,
+                  "img": "https://randomuser.me/api/portraits/men/84.jpg",
+                  "name": "James",
+                },
+                Object {
+                  "id": 2,
+                  "img": "https://randomuser.me/api/portraits/men/43.jpg",
+                  "name": "Prince",
+                },
+                Object {
+                  "id": 3,
+                  "img": "https://randomuser.me/api/portraits/men/35.jpg",
+                  "name": "Henry",
+                },
+                Object {
+                  "id": 4,
+                  "img": "https://randomuser.me/api/portraits/men/19.jpg",
+                  "name": "Charls",
+                },
+                Object {
+                  "id": 5,
+                  "img": "https://randomuser.me/api/portraits/men/92.jpg",
+                  "name": "David",
+                },
+              ]
+            }
+            disableVirtualization={false}
+            horizontal={true}
+            initialNumToRender={10}
+            keyExtractor={[Function]}
+            maxToRenderPerBatch={10}
+            numColumns={1}
+            onEndReachedThreshold={2}
+            removeClippedSubviews={false}
+            renderItem={[Function]}
+            scrollEnabled={true}
+            scrollEventThrottle={50}
+            showsHorizontalScrollIndicator={false}
+            style={
+              Object {
+                "marginTop": 20,
+              }
+            }
+            testID="gropuAdmins"
+            updateCellsBatchingPeriod={50}
+            windowSize={21}
+          />
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#a1a1a1",
+              "paddingBottom": 4,
+              "paddingStart": 15,
+              "paddingTop": 27,
+            }
+          }
+        >
+          Group Participants
+        </Text>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#363636",
+              "width": "100%",
+            }
+          }
+        >
+          <FlatList
+            ListFooterComponent={
+              <View
+                style={
+                  Object {
+                    "justifyContent": "center",
+                    "marginHorizontal": 20,
+                  }
+                }
+              >
+                <TouchableOpacity
+                  activeOpacity={0.2}
+                  onPress={[Function]}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "borderColor": "rgb(163,164,165)",
+                      "borderRadius": 50,
+                      "borderWidth": 1,
+                      "height": 107,
+                      "justifyContent": "center",
+                      "width": 107,
+                    }
+                  }
+                  testID="addNewGroupAdminsBtn"
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "rgb(163,164,165)",
+                        "fontSize": 39,
+                      }
+                    }
+                  >
+                    +
+                  </Text>
+                </TouchableOpacity>
+                <Text
+                  style={
+                    Object {
+                      "alignSelf": "flex-end",
+                      "color": "rgb(91,91,92)",
+                      "paddingBottom": 10,
+                      "paddingTop": 6,
+                    }
+                  }
+                >
+                  Add new
+                </Text>
+              </View>
+            }
+            data={
+              Array [
+                Object {
+                  "id": 1,
+                  "img": "https://randomuser.me/api/portraits/men/84.jpg",
+                  "name": "James",
+                },
+                Object {
+                  "id": 2,
+                  "img": "https://randomuser.me/api/portraits/men/43.jpg",
+                  "name": "Prince",
+                },
+                Object {
+                  "id": 3,
+                  "img": "https://randomuser.me/api/portraits/men/35.jpg",
+                  "name": "Henry",
+                },
+                Object {
+                  "id": 4,
+                  "img": "https://randomuser.me/api/portraits/men/19.jpg",
+                  "name": "Charls",
+                },
+                Object {
+                  "id": 5,
+                  "img": "https://randomuser.me/api/portraits/men/92.jpg",
+                  "name": "David",
+                },
+              ]
+            }
+            disableVirtualization={false}
+            horizontal={true}
+            initialNumToRender={10}
+            keyExtractor={[Function]}
+            maxToRenderPerBatch={10}
+            numColumns={1}
+            onEndReachedThreshold={2}
+            removeClippedSubviews={false}
+            renderItem={[Function]}
+            scrollEnabled={true}
+            scrollEventThrottle={50}
+            showsHorizontalScrollIndicator={false}
+            style={
+              Object {
+                "marginTop": 20,
+              }
+            }
+            testID="groupParticipants"
+            updateCellsBatchingPeriod={50}
+            windowSize={21}
+          />
+        </View>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          style={
+            Object {
+              "backgroundColor": "#363636",
+              "height": 98,
+              "justifyContent": "center",
+              "marginVertical": 59,
+              "width": "100%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "rgb(255,157,43)",
+                "fontSize": 17,
+                "fontWeight": "700",
+                "paddingLeft": 15,
+              }
+            }
+          >
+            Report
+          </Text>
+        </TouchableOpacity>
+      </ScrollViewMock>
+    </SafeAreaView>
+  </ImageBackground>
+</ImageBackground>
+`;
+
+exports[`GroupProfileChat User navigates to GroupProfileChat 2`] = `
+<View
+  style={
+    Object {
+      "marginLeft": 20,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": undefined,
+      }
+    }
+    style={
+      Object {
+        "borderColor": "rgb(255,255,255)",
+        "borderRadius": 50,
+        "borderWidth": 1,
+        "height": 107,
+        "width": 107,
+      }
+    }
+  />
+  <Text
+    numberOfLines={1}
+    style={
+      Object {
+        "alignSelf": "center",
+        "color": "rgb(91,91,92)",
+        "marginTop": 10,
+        "textAlign": "center",
+        "width": 118,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`GroupProfileChat User navigates to GroupProfileChat 3`] = `
+<View
+  style={
+    Object {
+      "marginLeft": 20,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": undefined,
+      }
+    }
+    style={
+      Object {
+        "borderColor": "rgb(255,255,255)",
+        "borderRadius": 50,
+        "borderWidth": 1,
+        "height": 107,
+        "width": 107,
+      }
+    }
+  />
+  <Text
+    numberOfLines={1}
+    style={
+      Object {
+        "alignSelf": "center",
+        "color": "rgb(91,91,92)",
+        "marginTop": 10,
+        "textAlign": "center",
+        "width": 118,
+      }
+    }
+  />
+</View>
+`;

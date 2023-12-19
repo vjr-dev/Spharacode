@@ -1,0 +1,326 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Trigger Screen User navigates to Trigger Screen 1`] = `
+<SafeAreaView
+  style={
+    Object {
+      "backgroundColor": "#454545",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "width": 750,
+      }
+    }
+  >
+    <StatusBar
+      animated={true}
+      backgroundColor="#454545"
+      barStyle="light-content"
+      showHideTransition="slide"
+    />
+    <ImageBackground
+      source={
+        Object {
+          "testUri": "../../../packages/blocks/TriggerScreen/assets/image_background-1.png",
+        }
+      }
+      style={
+        Object {
+          "height": 1334,
+          "width": 750,
+        }
+      }
+    >
+      <ImageBackground
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/TriggerScreen/assets/image_background-2.png",
+          }
+        }
+        style={
+          Object {
+            "alignItems": "center",
+            "height": 1334,
+            "width": 750,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "height": 60,
+              "justifyContent": "center",
+              "width": 750,
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Object {
+                "height": "100%",
+                "justifyContent": "center",
+                "width": 70,
+              }
+            }
+            testID="backButton"
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/TriggerScreen/assets/image_back.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 15,
+                  "marginLeft": 20,
+                  "tintColor": "#f07233",
+                  "width": 15,
+                }
+              }
+            />
+          </TouchableOpacity>
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "rgb(255,255,255)",
+              "fontSize": 20,
+              "marginTop": 50,
+              "width": 730,
+            }
+          }
+        >
+          Trigger using button.
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#a1a1a1",
+              "fontSize": 16,
+              "marginTop": 10,
+              "width": "90%",
+            }
+          }
+        >
+          Automatically call for help by selecting mobile button option as well as triggering method.
+        </Text>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#515151",
+              "borderRadius": 30,
+              "height": 50,
+              "justifyContent": "center",
+              "marginTop": 30,
+              "width": 720,
+            }
+          }
+          testID="actionButton"
+        >
+          <Text
+            style={
+              Object {
+                "color": "#a1a1a1",
+                "justifyContent": "center",
+                "paddingHorizontal": 20,
+              }
+            }
+          >
+            Select button type
+          </Text>
+        </TouchableOpacity>
+        <Component
+          hardwareAccelerated={false}
+          transparent={true}
+          visible={false}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "height": 1334,
+                "justifyContent": "center",
+                "width": 750,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "height": 100,
+                  "justifyContent": "center",
+                  "width": 730,
+                }
+              }
+            >
+              <ActivityIndicator
+                animating={true}
+                color="#f07233"
+                hidesWhenStopped={true}
+                size="large"
+              />
+            </View>
+          </View>
+        </Component>
+      </ImageBackground>
+    </ImageBackground>
+  </View>
+</SafeAreaView>
+`;
+
+exports[`Trigger Screen User navigates to Trigger Screen 2`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  onPress={[Function]}
+  style={
+    Object {
+      "alignSelf": "center",
+      "backgroundColor": "rgba(255,211,154,1)",
+      "borderRadius": 5,
+      "height": 69,
+      "justifyContent": "center",
+      "width": "90%",
+    }
+  }
+  testID="itemButton"
+>
+  <Text
+    style={
+      Object {
+        "color": "#000",
+        "marginLeft": 10,
+      }
+    }
+  >
+    aa
+  </Text>
+</TouchableOpacity>
+`;
+
+exports[`Trigger Screen User navigates to Trigger Screen 3`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  onPress={[Function]}
+  style={
+    Object {
+      "alignSelf": "center",
+      "backgroundColor": "transparent",
+      "borderRadius": 5,
+      "height": 69,
+      "justifyContent": "center",
+      "width": "90%",
+    }
+  }
+  testID="itemButton"
+>
+  <Text
+    style={
+      Object {
+        "color": "#cdcdcd",
+        "marginLeft": 10,
+      }
+    }
+  >
+    aa
+  </Text>
+</TouchableOpacity>
+`;
+
+exports[`Trigger Screen User navigates to Trigger Screen 4`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  onPress={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "alignSelf": "center",
+      "flexDirection": "row",
+      "height": 30,
+      "justifyContent": "space-between",
+      "marginVertical": 1,
+      "width": 730,
+    }
+  }
+  testID="labelButton"
+>
+  <Text
+    style={
+      Object {
+        "color": "#a1a1a1",
+        "fontSize": 16,
+      }
+    }
+  >
+    aa
+  </Text>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../packages/blocks/TriggerScreen/assets/radio-button.png",
+      }
+    }
+    style={
+      Object {
+        "height": 20,
+        "tintColor": "rgba(255,138,73,1)",
+        "width": 20,
+      }
+    }
+  />
+</TouchableOpacity>
+`;
+
+exports[`Trigger Screen User navigates to Trigger Screen 5`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  onPress={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "alignSelf": "center",
+      "flexDirection": "row",
+      "height": 30,
+      "justifyContent": "space-between",
+      "marginVertical": 1,
+      "width": 730,
+    }
+  }
+  testID="labelButton"
+>
+  <Text
+    style={
+      Object {
+        "color": "#a1a1a1",
+        "fontSize": 16,
+      }
+    }
+  >
+    aa
+  </Text>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../packages/blocks/TriggerScreen/assets/radio-button.png",
+      }
+    }
+    style={
+      Object {
+        "height": 20,
+        "tintColor": "#a1a1a1",
+        "width": 20,
+      }
+    }
+  />
+</TouchableOpacity>
+`;

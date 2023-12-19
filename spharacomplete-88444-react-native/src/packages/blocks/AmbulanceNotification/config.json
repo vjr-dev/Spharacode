@@ -1,0 +1,39 @@
+{
+  "id": "AmbulanceNotification",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/AmbulanceNotification",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "AmbulanceNotification"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Catalogue": {
+        "file": "AmbulanceNotification.tsx",
+        "extends": "AmbulanceController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": []
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "AmbulanceNotification"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {}
+  }
+}

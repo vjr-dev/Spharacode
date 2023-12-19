@@ -1,0 +1,65 @@
+{
+  "id": "ConversationThreading",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/ConversationThreading",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ConversationThreading"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ConversationThreading": {
+        "file": "ConversationThreading.tsx",
+        "extends": "ConversationThreadingController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ConversationThreadingController",
+            "path": "./ConversationThreadingController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ConversationThreadingController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ConversationThreading"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ConversationThreadingBlock": {
+        "file": "ConversationThreadingBlock.tsx",
+        "extends": "ConversationThreadingController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ConversationThreadingController",
+            "path": "./ConversationThreadingController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ConversationThreadingController"
+          }
+        ]
+      }
+    }
+  }
+}

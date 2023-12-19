@@ -1,0 +1,67 @@
+{
+  "id": "IcloudSharing2",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/IcloudSharing2",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "IcloudSharing2"
+    ],
+    "assembler-dependencies": [
+      "\"react-native-cloud-store\": \"^0.10.0\""
+    ],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "IcloudSharing2": {
+        "file": "IcloudSharing2.tsx",
+        "extends": "IcloudSharing2Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "IcloudSharing2Controller",
+            "path": "./IcloudSharing2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./IcloudSharing2Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "IcloudSharing2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "IcloudSharing2Block": {
+        "file": "IcloudSharing2Block.tsx",
+        "extends": "IcloudSharing2Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "IcloudSharing2Controller",
+            "path": "./IcloudSharing2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./IcloudSharing2Controller"
+          }
+        ]
+      }
+    }
+  }
+}

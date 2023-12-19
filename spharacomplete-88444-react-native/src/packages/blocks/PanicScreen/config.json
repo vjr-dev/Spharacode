@@ -1,0 +1,40 @@
+{
+  "id": "PanicScreen",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/PanicScreen",
+  "assembler-adapters": [
+    "PanicScreenAdapter"
+  ],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "PanicScreen"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "PanicScreen"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "PanicScreen": {
+        "file": "PanicScreen.tsx",
+        "extends": "PanicScreenController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "PanicScreenController",
+            "path": "./PanicScreenController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./PanicScreenController"
+          }
+        ]
+      }
+    }
+  }
+  
+}

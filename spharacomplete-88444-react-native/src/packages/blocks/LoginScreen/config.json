@@ -1,0 +1,39 @@
+{
+  "id": "LoginScreen",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/LoginScreen",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Login"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Login": {
+        "file": "Login.tsx",
+        "extends": "LoginController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": []
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Login"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {}
+  }
+}

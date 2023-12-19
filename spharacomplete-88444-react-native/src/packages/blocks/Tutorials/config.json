@@ -1,0 +1,40 @@
+{
+  "id": "Tutorials",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/Tutorials",
+  "assembler-adapters": [
+    "TutorialsAdapter"
+  ],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Tutorials"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "Tutorials"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Tutorials": {
+        "file": "Tutorials.tsx",
+        "extends": "TutorialsController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "TutorialsController",
+            "path": "./TutorialsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./TutorialsController"
+          }
+        ]
+      }
+    }
+  }
+  
+}

@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Social User navigates to SocialCommunication 1`] = `
+<NavigationContainer
+  screenProps={
+    Object {
+      "navigationProp": undefined,
+    }
+  }
+/>
+`;
+
+exports[`Social User navigates to TabBarComponent 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  style={
+    Object {
+      "alignItems": "center",
+      "justifyContent": "center",
+    }
+  }
+  testID="TabID"
+>
+  <Image
+    resizeMode="contain"
+    style={
+      Array [
+        Object {
+          "height": 23,
+          "width": 23,
+        },
+        Object {
+          "tintColor": "rgb(255, 255, 255)",
+        },
+      ]
+    }
+  />
+  <Text
+    style={
+      Array [
+        Object {
+          "fontWeight": "500",
+        },
+        Object {
+          "color": "rgb(255, 255, 255)",
+        },
+      ]
+    }
+  />
+</TouchableOpacity>
+`;

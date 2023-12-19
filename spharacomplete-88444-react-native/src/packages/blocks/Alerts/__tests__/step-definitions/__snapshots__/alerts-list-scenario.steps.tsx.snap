@@ -1,0 +1,313 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Alerts List User navigates to Alerts List Screen 1`] = `
+<SafeAreaView
+  style={
+    Object {
+      "backgroundColor": "#f17234",
+      "flex": 1,
+    }
+  }
+>
+  <ImageBackground
+    source={
+      Object {
+        "testUri": "../../../packages/blocks/Alerts/assets/image_background-1.png",
+      }
+    }
+    style={
+      Object {
+        "flex": 1,
+        "height": 1334,
+        "width": 750,
+      }
+    }
+  >
+    <ImageBackground
+      source={
+        Object {
+          "testUri": "../../../packages/blocks/Alerts/assets/image_background-2.png",
+        }
+      }
+      style={
+        Object {
+          "flex": 1,
+          "height": 1334,
+          "width": 750,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "rgba(255,138,73,1)",
+            "flexDirection": "row",
+            "height": undefined,
+            "justifyContent": "space-between",
+            "width": 750,
+          }
+        }
+      >
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "height": "90%",
+              "justifyContent": "center",
+              "width": "15%",
+            }
+          }
+          testID="alertsListBackButton"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/Alerts/assets/image_back.png",
+              }
+            }
+            style={
+              Object {
+                "height": 15,
+                "tintColor": "#404040",
+                "width": 15,
+              }
+            }
+          />
+        </TouchableOpacity>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "height": "100%",
+              "justifyContent": "center",
+              "width": "70%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#404040",
+                "fontSize": undefined,
+                "fontWeight": "700",
+              }
+            }
+          >
+            My Alert
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "height": "100%",
+              "width": "15%",
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <Component
+          hardwareAccelerated={false}
+          transparent={true}
+          visible={true}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "height": 1334,
+                "justifyContent": "center",
+                "width": 750,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "height": 100,
+                  "justifyContent": "center",
+                  "width": 730,
+                }
+              }
+            >
+              <ActivityIndicator
+                animating={true}
+                color="#f07233"
+                hidesWhenStopped={true}
+                size="large"
+              />
+            </View>
+          </View>
+        </Component>
+      </View>
+    </ImageBackground>
+  </ImageBackground>
+</SafeAreaView>
+`;
+
+exports[`Alerts List User navigates to Alerts List Screen 2`] = `
+<SafeAreaView
+  style={
+    Object {
+      "backgroundColor": "#f17234",
+      "flex": 1,
+    }
+  }
+>
+  <ImageBackground
+    source={
+      Object {
+        "testUri": "../../../packages/blocks/Alerts/assets/image_background-1.png",
+      }
+    }
+    style={
+      Object {
+        "flex": 1,
+        "height": 1334,
+        "width": 750,
+      }
+    }
+  >
+    <ImageBackground
+      source={
+        Object {
+          "testUri": "../../../packages/blocks/Alerts/assets/image_background-2.png",
+        }
+      }
+      style={
+        Object {
+          "flex": 1,
+          "height": 1334,
+          "width": 750,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "rgba(255,138,73,1)",
+            "flexDirection": "row",
+            "height": undefined,
+            "justifyContent": "space-between",
+            "width": 750,
+          }
+        }
+      >
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "height": "90%",
+              "justifyContent": "center",
+              "width": "15%",
+            }
+          }
+          testID="alertsListBackButton"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/Alerts/assets/image_back.png",
+              }
+            }
+            style={
+              Object {
+                "height": 15,
+                "tintColor": "#404040",
+                "width": 15,
+              }
+            }
+          />
+        </TouchableOpacity>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "height": "100%",
+              "justifyContent": "center",
+              "width": "70%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#404040",
+                "fontSize": undefined,
+                "fontWeight": "700",
+              }
+            }
+          >
+            My Alert
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "height": "100%",
+              "width": "15%",
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <Component
+          hardwareAccelerated={false}
+          transparent={true}
+          visible={true}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "height": 1334,
+                "justifyContent": "center",
+                "width": 750,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "height": 100,
+                  "justifyContent": "center",
+                  "width": 730,
+                }
+              }
+            >
+              <ActivityIndicator
+                animating={true}
+                color="#f07233"
+                hidesWhenStopped={true}
+                size="large"
+              />
+            </View>
+          </View>
+        </Component>
+      </View>
+    </ImageBackground>
+  </ImageBackground>
+</SafeAreaView>
+`;

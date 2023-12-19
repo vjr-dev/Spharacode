@@ -1,0 +1,65 @@
+{
+  "id": "EmergencySos",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/EmergencySos",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "EmergencySos"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "EmergencySos": {
+        "file": "EmergencySos.tsx",
+        "extends": "EmergencySosController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "EmergencySosController",
+            "path": "./EmergencySosController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./EmergencySosController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "EmergencySos"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "EmergencySosBlock": {
+        "file": "EmergencySosBlock.tsx",
+        "extends": "EmergencySosController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "EmergencySosController",
+            "path": "./EmergencySosController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./EmergencySosController"
+          }
+        ]
+      }
+    }
+  }
+}

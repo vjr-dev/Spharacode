@@ -1,0 +1,65 @@
+{
+  "id": "ContactsIntegration",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/ContactsIntegration",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ContactsIntegration"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ContactsIntegration": {
+        "file": "ContactsIntegration.tsx",
+        "extends": "ContactsIntegrationController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ContactsIntegrationController",
+            "path": "./ContactsIntegrationController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ContactsIntegrationController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ContactsIntegration"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ContactsIntegrationBlock": {
+        "file": "ContactsIntegrationBlock.tsx",
+        "extends": "ContactsIntegrationController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ContactsIntegrationController",
+            "path": "./ContactsIntegrationController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ContactsIntegrationController"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "PinConversation",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/PinConversation",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "PinConversation"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "PinConversation": {
+        "file": "PinConversation.tsx",
+        "extends": "PinConversationController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "PinConversationController",
+            "path": "./PinConversationController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./PinConversationController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "PinConversation"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "PinConversationBlock": {
+        "file": "PinConversationBlock.tsx",
+        "extends": "PinConversationController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "PinConversationController",
+            "path": "./PinConversationController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./PinConversationController"
+          }
+        ]
+      }
+    }
+  }
+}

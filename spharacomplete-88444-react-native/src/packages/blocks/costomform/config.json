@@ -1,0 +1,36 @@
+{
+  "id": "costomform",
+  "version": "1.0.0",
+  "status": "release",
+  "path": "./packages/blocks/costomform",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "costomform"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "costomform": {
+        "file": "costomform.tsx",
+        "extends": "costomformController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "costomformController",
+            "path": "./costomformController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./costomformController"
+          }
+        ]
+      }
+    }
+  }
+}

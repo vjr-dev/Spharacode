@@ -1,0 +1,65 @@
+{
+  "id": "Mentionstagging",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/Mentionstagging",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Mentionstagging"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Mentionstagging": {
+        "file": "Mentionstagging.tsx",
+        "extends": "MentionstaggingController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "MentionstaggingController",
+            "path": "./MentionstaggingController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./MentionstaggingController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Mentionstagging"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "MentionstaggingBlock": {
+        "file": "MentionstaggingBlock.tsx",
+        "extends": "MentionstaggingController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "MentionstaggingController",
+            "path": "./MentionstaggingController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./MentionstaggingController"
+          }
+        ]
+      }
+    }
+  }
+}

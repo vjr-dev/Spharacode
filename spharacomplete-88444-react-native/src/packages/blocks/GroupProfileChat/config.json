@@ -1,0 +1,68 @@
+{
+  "id": "GroupProfileChat",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/GroupProfileChat",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "GroupProfileChat"
+    ],
+    "assembler-messages": {
+      "output": {
+        "btnForgotPassword": [
+          "NavigationForgotPasswordMessage"
+        ],
+        "btnMobileLogIn": [
+          "LoginFaliureMessage",
+          "LoginSuccessMessage"
+        ],
+        "btnSocialLogin": [
+          "NavigationSocialLogInMessage"
+        ],
+        "btnEmailLogin": [
+          "NavigationEmailLogInMessage"
+        ]
+      },
+      "input": {
+        "navigation": [
+          "NavigationMobilePhoneLogInMessage"
+        ]
+      }
+    },
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "country-code-selector",
+      "forgot-password"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "MobileAccountLoginBlock": {
+        "file": "MobileAccountLoginBlock.tsx",
+        "extends": "MobileAccountLoginController",
+        "configURL": "/login/login",
+        "validationRulesURL": "api/profile/validation_settings",
+        "imports": [
+          {
+            "value": "CountryCodeSelector",
+            "path": "../../../country-code-selector/src/CountryCodeSelector"
+          },
+          {
+            "value": "CustomCheckBox",
+            "path": "../../../../components/src/CustomCheckBox"
+          },
+          {
+            "value": "MobileAccountLoginController",
+            "path": "./MobileAccountLoginController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./MobileAccountLoginController"
+          }
+        ]
+      }
+    }
+  }
+}

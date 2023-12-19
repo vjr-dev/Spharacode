@@ -1,0 +1,264 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UpdateSecuritySetting User navigates to UpdateSecuritySetting screen 1`] = `
+<TouchableWithoutFeedback
+  onPress={[Function]}
+  testID="keyboardDismissButton"
+>
+  <SafeAreaView
+    style={
+      Object {
+        "backgroundColor": "#454545",
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "height": 1334,
+          "width": 750,
+        }
+      }
+    >
+      <StatusBar
+        animated={true}
+        backgroundColor="#454545"
+        barStyle="light-content"
+        showHideTransition="slide"
+      />
+      <ImageBackground
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/SecuritySetting/assets/image_background-1.png",
+          }
+        }
+        style={
+          Object {
+            "flex": 1,
+            "height": 1334,
+            "position": "absolute",
+            "width": 750,
+          }
+        }
+      >
+        <ImageBackground
+          source={
+            Object {
+              "testUri": "../../../packages/blocks/SecuritySetting/assets/image_background-2.png",
+            }
+          }
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "height": 1334,
+              "position": "absolute",
+              "width": 750,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "height": 60,
+                "justifyContent": "center",
+                "width": 750,
+              }
+            }
+          >
+            <TouchableOpacity
+              activeOpacity={0.2}
+              onPress={[Function]}
+              style={
+                Object {
+                  "marginLeft": 20,
+                }
+              }
+              testID="backButton"
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../packages/blocks/SecuritySetting/assets/image_back.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 15,
+                    "tintColor": "#f07233",
+                    "width": 15,
+                  }
+                }
+              />
+            </TouchableOpacity>
+          </View>
+          <Text
+            style={
+              Object {
+                "color": "#a1a1a1",
+                "fontSize": 17,
+                "marginTop": 40,
+                "width": 725,
+              }
+            }
+          >
+            Enter a 8-digit passcode which you will be asked for when you are trying to login to new device or restore your profile.Please keep this passcode safely for your future reference.
+          </Text>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "rgba(83,83,83,0.48)",
+                "borderRadius": 50,
+                "height": 60,
+                "justifyContent": "center",
+                "marginTop": 50,
+                "width": 725,
+              }
+            }
+          >
+            <TextInput
+              allowFontScaling={true}
+              keyboardType="number-pad"
+              maxLength={8}
+              onChangeText={[Function]}
+              onFocus={[Function]}
+              placeholder="8-Digit Code"
+              placeholderTextColor="#a1a1a1"
+              rejectResponderTermination={true}
+              secureTextEntry={true}
+              style={
+                Object {
+                  "color": "#a1a1a1",
+                  "fontSize": 15,
+                  "height": "100%",
+                  "width": "90%",
+                }
+              }
+              testID="passcodeInput"
+              underlineColorAndroid="transparent"
+              value={0}
+            />
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "rgba(83,83,83,0.48)",
+                  "borderRadius": 50,
+                  "height": 60,
+                  "justifyContent": "center",
+                  "marginTop": 50,
+                  "width": 725,
+                },
+                Object {
+                  "marginTop": 30,
+                },
+              ]
+            }
+          >
+            <TextInput
+              allowFontScaling={true}
+              keyboardType="number-pad"
+              maxLength={8}
+              onChangeText={[Function]}
+              onFocus={[Function]}
+              placeholder="Confirm Code"
+              placeholderTextColor="#a1a1a1"
+              rejectResponderTermination={true}
+              secureTextEntry={true}
+              style={
+                Object {
+                  "color": "#a1a1a1",
+                  "fontSize": 15,
+                  "height": "100%",
+                  "width": "90%",
+                }
+              }
+              testID="confirmPasscodeInput"
+              underlineColorAndroid="transparent"
+              value={0}
+            />
+          </View>
+          <KeyboardAvoidingView
+            behavior="padding"
+            enabled={true}
+            keyboardVerticalOffset={0}
+            style={
+              Array [
+                Object {
+                  "position": "absolute",
+                  "width": "100%",
+                },
+                Object {
+                  "bottom": 130,
+                },
+              ]
+            }
+          >
+            <TouchableOpacity
+              activeOpacity={0.2}
+              onPress={[Function]}
+              style={
+                Object {
+                  "alignSelf": "center",
+                }
+              }
+              testID="nextButton"
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "rgba(255,138,73,1)",
+                    "paddingBottom": 30,
+                  }
+                }
+              >
+                NEXT
+              </Text>
+            </TouchableOpacity>
+          </KeyboardAvoidingView>
+          <Component
+            hardwareAccelerated={false}
+            transparent={true}
+            visible={false}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "height": 1334,
+                  "justifyContent": "center",
+                  "width": 750,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": "center",
+                    "height": 100,
+                    "justifyContent": "center",
+                    "width": 725,
+                  }
+                }
+              >
+                <ActivityIndicator
+                  animating={true}
+                  color="#f07233"
+                  hidesWhenStopped={true}
+                  size="large"
+                />
+              </View>
+            </View>
+          </Component>
+        </ImageBackground>
+      </ImageBackground>
+    </View>
+  </SafeAreaView>
+</TouchableWithoutFeedback>
+`;

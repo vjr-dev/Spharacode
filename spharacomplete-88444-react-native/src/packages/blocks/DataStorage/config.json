@@ -1,0 +1,65 @@
+{
+  "id": "DataStorage",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/DataStorage",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "DataStorage"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "DataStorage": {
+        "file": "DataStorage.tsx",
+        "extends": "DataStorageController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "DataStorageController",
+            "path": "./DataStorageController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./DataStorageController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "DataStorage"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "DataStorageBlock": {
+        "file": "DataStorageBlock.tsx",
+        "extends": "DataStorageController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "DataStorageController",
+            "path": "./DataStorageController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./DataStorageController"
+          }
+        ]
+      }
+    }
+  }
+}

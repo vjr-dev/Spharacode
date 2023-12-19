@@ -1,0 +1,65 @@
+{
+  "id": "CfMarketingPlatformPaidService3",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/CfMarketingPlatformPaidService3",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CfMarketingPlatformPaidService3"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CfMarketingPlatformPaidService3": {
+        "file": "CfMarketingPlatformPaidService3.tsx",
+        "extends": "CfMarketingPlatformPaidService3Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "CfMarketingPlatformPaidService3Controller",
+            "path": "./CfMarketingPlatformPaidService3Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfMarketingPlatformPaidService3Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CfMarketingPlatformPaidService3"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CfMarketingPlatformPaidService3Block": {
+        "file": "CfMarketingPlatformPaidService3Block.tsx",
+        "extends": "CfMarketingPlatformPaidService3Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "CfMarketingPlatformPaidService3Controller",
+            "path": "./CfMarketingPlatformPaidService3Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfMarketingPlatformPaidService3Controller"
+          }
+        ]
+      }
+    }
+  }
+}

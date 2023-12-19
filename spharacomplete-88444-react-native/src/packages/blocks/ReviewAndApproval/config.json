@@ -1,0 +1,65 @@
+{
+  "id": "ReviewAndApproval",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/ReviewAndApproval",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ReviewAndApproval"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ReviewAndApproval": {
+        "file": "ReviewAndApproval.tsx",
+        "extends": "ReviewAndApprovalController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ReviewAndApprovalController",
+            "path": "./ReviewAndApprovalController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ReviewAndApprovalController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ReviewAndApproval"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ReviewAndApprovalBlock": {
+        "file": "ReviewAndApprovalBlock.tsx",
+        "extends": "ReviewAndApprovalController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ReviewAndApprovalController",
+            "path": "./ReviewAndApprovalController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ReviewAndApprovalController"
+          }
+        ]
+      }
+    }
+  }
+}

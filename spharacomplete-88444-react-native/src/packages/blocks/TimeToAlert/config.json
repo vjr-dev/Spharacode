@@ -1,0 +1,39 @@
+{
+  "id": "TimeToAlert",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/TimeToAlert",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "TimeToAlert"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Login": {
+        "file": "TimeToAlert.tsx",
+        "extends": "TimeToAlertController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": []
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "TimeToAlert"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {}
+  }
+}

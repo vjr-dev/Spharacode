@@ -1,0 +1,65 @@
+{
+  "id": "PrivateChat",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/PrivateChat",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "PrivateChat"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "PrivateChat": {
+        "file": "PrivateChat.tsx",
+        "extends": "PrivateChatController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "PrivateChatController",
+            "path": "./PrivateChatController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./PrivateChatController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "PrivateChat"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "PrivateChatBlock": {
+        "file": "PrivateChatBlock.tsx",
+        "extends": "PrivateChatController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "PrivateChatController",
+            "path": "./PrivateChatController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./PrivateChatController"
+          }
+        ]
+      }
+    }
+  }
+}

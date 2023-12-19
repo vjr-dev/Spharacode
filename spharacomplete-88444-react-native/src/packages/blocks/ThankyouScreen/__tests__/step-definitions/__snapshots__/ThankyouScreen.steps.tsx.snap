@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThankyouScreen User navigates to ThankyouScreen 1`] = `
+<ForwardRef(SafeAreaView)
+  style={
+    Object {
+      "backgroundColor": "#454545",
+      "flex": 1,
+    }
+  }
+>
+  <ImageBackground
+    source={
+      Object {
+        "testUri": "../../../packages/blocks/ThankyouScreen/assets/image_background-1.png",
+      }
+    }
+    style={
+      Object {
+        "height": "100%",
+        "width": "100%",
+      }
+    }
+  >
+    <ImageBackground
+      source={
+        Object {
+          "testUri": "../../../packages/blocks/ThankyouScreen/assets/image_background-2.png",
+        }
+      }
+      style={
+        Object {
+          "alignItems": "center",
+          "height": "100%",
+          "width": "100%",
+        }
+      }
+    >
+      <ForwardRef
+        activeOpacity={1}
+        onPress={[Function]}
+        testID="outsideClick"
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "height": "100%",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "marginTop": 96,
+                "padding": 20,
+              }
+            }
+          >
+            <Image
+              resizeMode="contain"
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/ThankyouScreen/assets/thanks.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 191,
+                  "width": 191,
+                }
+              }
+            />
+            <Text
+              style={
+                Object {
+                  "color": "rgb(255,255,255)",
+                  "fontSize": 35,
+                  "fontWeight": "bold",
+                  "letterSpacing": 1,
+                  "marginTop": 48,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Thank You!
+            </Text>
+            <Text
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "color": "rgb(163,164,165)",
+                  "fontSize": 25,
+                  "fontWeight": "600",
+                  "marginTop": 10,
+                  "textAlign": "center",
+                  "width": 578,
+                }
+              }
+            >
+              Your phone number has been verified successfully.
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "justifyContent": "flex-end",
+              "marginBottom": 66.7,
+              "width": 750,
+            }
+          }
+        >
+          <ForwardRef
+            onPress={[Function]}
+            style={
+              Object {
+                "backgroundColor": "rgba(255,138,73,1)",
+                "borderRadius": 58,
+                "height": 96,
+                "justifyContent": "center",
+                "width": 711,
+              }
+            }
+            testID="continueButton"
+          >
+            <Text
+              style={
+                Object {
+                  "color": "rgb(255,255,255)",
+                  "fontSize": 27,
+                  "fontWeight": "bold",
+                  "letterSpacing": 1,
+                  "textAlign": "center",
+                }
+              }
+            >
+               
+              CONTINUE TO PROFILE
+            </Text>
+          </ForwardRef>
+        </View>
+      </ForwardRef>
+      <Loader
+        loading={false}
+      />
+    </ImageBackground>
+  </ImageBackground>
+</ForwardRef(SafeAreaView)>
+`;

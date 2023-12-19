@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConversationThreading User navigates to ConversationThreading 1`] = `<View />`;
+
+exports[`ConversationThreading User navigates to ConversationThreading 2`] = `<View />`;

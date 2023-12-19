@@ -1,0 +1,65 @@
+{
+  "id": "EmergencySosGesture2",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/EmergencySosGesture2",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "EmergencySosGesture2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "EmergencySosGesture2": {
+        "file": "EmergencySosGesture2.tsx",
+        "extends": "EmergencySosGesture2Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "EmergencySosGesture2Controller",
+            "path": "./EmergencySosGesture2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./EmergencySosGesture2Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "EmergencySosGesture2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "EmergencySosGesture2Block": {
+        "file": "EmergencySosGesture2Block.tsx",
+        "extends": "EmergencySosGesture2Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "EmergencySosGesture2Controller",
+            "path": "./EmergencySosGesture2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./EmergencySosGesture2Controller"
+          }
+        ]
+      }
+    }
+  }
+}

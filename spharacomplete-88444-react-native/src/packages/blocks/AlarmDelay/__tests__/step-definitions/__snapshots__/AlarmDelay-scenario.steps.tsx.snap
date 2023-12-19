@@ -1,0 +1,446 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AlarmDelay User navigates to AlarmDelay 1`] = `
+<SafeAreaView
+  style={
+    Object {
+      "backgroundColor": "#454545",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "width": 750,
+      }
+    }
+  >
+    <StatusBar
+      animated={true}
+      backgroundColor="#454545"
+      barStyle="light-content"
+      showHideTransition="slide"
+    />
+    <ImageBackground
+      source={
+        Object {
+          "testUri": "../../../packages/blocks/AlarmDelay/assets/image_background-1.png",
+        }
+      }
+      style={
+        Object {
+          "height": 1334,
+          "width": 750,
+        }
+      }
+    >
+      <ImageBackground
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/AlarmDelay/assets/image_background-2.png",
+          }
+        }
+        style={
+          Object {
+            "alignItems": "center",
+            "height": 1334,
+            "width": 750,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "height": 60,
+              "justifyContent": "center",
+              "width": 750,
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "height": 15,
+                "justifyContent": "center",
+                "padding": 25,
+                "width": 15,
+              }
+            }
+            testID="backBtnId"
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/AlarmDelay/assets/image_back.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 15,
+                  "tintColor": "#f07233",
+                  "width": 15,
+                }
+              }
+            />
+          </TouchableOpacity>
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "rgb(255,255,255)",
+              "fontSize": 20,
+              "marginTop": 78,
+              "width": 730,
+            }
+          }
+        >
+          Alarm Delay.
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#a1a1a1",
+              "fontSize": 16,
+              "marginTop": 20,
+              "width": 730,
+            }
+          }
+        >
+          Set number of seconds from when the SOS button is pushed until the alarm triggerd.
+        </Text>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "height": 98,
+              "justifyContent": "space-between",
+              "marginTop": 25,
+              "width": 750,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#cdcdcd",
+                "fontSize": 20,
+                "marginLeft": 20,
+              }
+            }
+          >
+            Voice Activation alarm delay.
+          </Text>
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "height": "100%",
+                "justifyContent": "center",
+              }
+            }
+            testID="setClickId"
+          >
+            <Text
+              style={
+                Object {
+                  "color": "rgba(255,138,73,1)",
+                  "fontSize": 20,
+                  "marginRight": 29,
+                }
+              }
+            >
+              SET
+            </Text>
+          </TouchableOpacity>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "backgroundColor": "#404040",
+              "flexDirection": "row",
+              "height": 196,
+              "justifyContent": "space-evenly",
+              "width": 750,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#cdcdcd",
+                "marginLeft": 59,
+                "marginTop": 31,
+              }
+            }
+          >
+            5
+          </Text>
+          <View
+            style={
+              Object {
+                "height": "100%",
+                "justifyContent": "center",
+                "width": 628,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "rgba(255,211,154,1)",
+                  "borderRadius": 98,
+                  "left": 41,
+                  "width": 196,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "rgb(0,0,0)",
+                    "textAlign": "center",
+                  }
+                }
+              >
+                10
+                 Second
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "marginTop": 5,
+                  "width": 628,
+                }
+              }
+            >
+              <ForwardRef(SliderComponent)
+                disabled={false}
+                inverted={false}
+                maximumTrackTintColor="#a1a1a1"
+                maximumValue={60}
+                minimumTrackTintColor="rgba(255,138,73,1)"
+                minimumValue={5}
+                onValueChange={[Function]}
+                step={1}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "justifyContent": "center",
+                    "width": 539,
+                  }
+                }
+                testID="silderValue"
+                thumbTintColor="rgb(255,255,255)"
+                value={10}
+              />
+            </View>
+          </View>
+          <Text
+            style={
+              Object {
+                "color": "#cdcdcd",
+                "marginRight": 59,
+                "marginTop": 31,
+              }
+            }
+          >
+            60
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "height": 98,
+              "justifyContent": "space-between",
+              "marginTop": 25,
+              "width": 750,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#cdcdcd",
+                "fontSize": 20,
+                "marginLeft": 20,
+              }
+            }
+          >
+            Gesture trigger delay.
+          </Text>
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "height": "100%",
+                "justifyContent": "center",
+              }
+            }
+            testID="SetClickId"
+          >
+            <Text
+              style={
+                Object {
+                  "color": "rgba(255,138,73,1)",
+                  "fontSize": 20,
+                  "marginRight": 29,
+                }
+              }
+            >
+              SET
+            </Text>
+          </TouchableOpacity>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "backgroundColor": "#404040",
+              "flexDirection": "row",
+              "height": 196,
+              "justifyContent": "space-evenly",
+              "width": 750,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#cdcdcd",
+                "marginLeft": 59,
+                "marginTop": 31,
+              }
+            }
+          >
+            5
+          </Text>
+          <View
+            style={
+              Object {
+                "height": "100%",
+                "justifyContent": "center",
+                "width": 628,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "rgba(255,211,154,1)",
+                  "borderRadius": 98,
+                  "left": 1,
+                  "width": 196,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "rgb(0,0,0)",
+                    "textAlign": "center",
+                  }
+                }
+              >
+                5
+                 Second
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "marginTop": 5,
+                  "width": 628,
+                }
+              }
+            >
+              <ForwardRef(SliderComponent)
+                disabled={false}
+                inverted={false}
+                maximumTrackTintColor="#a1a1a1"
+                maximumValue={60}
+                minimumTrackTintColor="rgba(255,138,73,1)"
+                minimumValue={5}
+                onValueChange={[Function]}
+                step={1}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "justifyContent": "center",
+                    "width": 539,
+                  }
+                }
+                testID="sildervalue2"
+                thumbTintColor="rgb(255,255,255)"
+                value={5}
+              />
+            </View>
+          </View>
+          <Text
+            style={
+              Object {
+                "color": "#cdcdcd",
+                "marginRight": 59,
+                "marginTop": 31,
+              }
+            }
+          >
+            60
+          </Text>
+        </View>
+        <Component
+          hardwareAccelerated={false}
+          transparent={true}
+          visible={false}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "height": 1334,
+                "justifyContent": "center",
+                "width": 750,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "height": 100,
+                  "justifyContent": "center",
+                  "width": 730,
+                }
+              }
+            >
+              <ActivityIndicator
+                animating={true}
+                color="#f07233"
+                hidesWhenStopped={true}
+                size="large"
+              />
+            </View>
+          </View>
+        </Component>
+      </ImageBackground>
+    </ImageBackground>
+  </View>
+</SafeAreaView>
+`;

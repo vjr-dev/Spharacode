@@ -1,0 +1,65 @@
+{
+  "id": "SelfdestructMessaging",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/SelfdestructMessaging",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "SelfdestructMessaging"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "SelfdestructMessaging": {
+        "file": "SelfdestructMessaging.tsx",
+        "extends": "SelfdestructMessagingController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "SelfdestructMessagingController",
+            "path": "./SelfdestructMessagingController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./SelfdestructMessagingController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "SelfdestructMessaging"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "SelfdestructMessagingBlock": {
+        "file": "SelfdestructMessagingBlock.tsx",
+        "extends": "SelfdestructMessagingController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "SelfdestructMessagingController",
+            "path": "./SelfdestructMessagingController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./SelfdestructMessagingController"
+          }
+        ]
+      }
+    }
+  }
+}

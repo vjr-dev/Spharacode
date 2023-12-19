@@ -1,0 +1,65 @@
+{
+  "id": "CfParentalControls3",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/CfParentalControls3",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CfParentalControls3"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CfParentalControls3": {
+        "file": "CfParentalControls3.tsx",
+        "extends": "CfParentalControls3Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "CfParentalControls3Controller",
+            "path": "./CfParentalControls3Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfParentalControls3Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CfParentalControls3"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CfParentalControls3Block": {
+        "file": "CfParentalControls3Block.tsx",
+        "extends": "CfParentalControls3Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "CfParentalControls3Controller",
+            "path": "./CfParentalControls3Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfParentalControls3Controller"
+          }
+        ]
+      }
+    }
+  }
+}

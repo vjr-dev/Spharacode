@@ -1,0 +1,40 @@
+{
+  "id": "MeetingsInSocial",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/MeetingsInSocial",
+  "assembler-adapters": [
+    "MeetingsInSocialAdapter"
+  ],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "MeetingsInSocial"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "MeetingsInSocial"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "MeetingsInSocial": {
+        "file": "MeetingsInSocial.tsx",
+        "extends": "MeetingsInSocialController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "MeetingsInSocialController",
+            "path": "./MeetingsInSocialController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./MeetingsInSocialController"
+          }
+        ]
+      }
+    }
+  }
+  
+}

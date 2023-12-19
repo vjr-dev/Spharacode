@@ -1,0 +1,232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FireNotification User navigates to FireNotification 1`] = `
+<ForwardRef(SafeAreaView)
+  style={
+    Object {
+      "backgroundColor": "#fa6738",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "height": 1334,
+        "width": 750,
+      }
+    }
+  >
+    <ImageBackground
+      source={
+        Object {
+          "testUri": "../../../packages/blocks/FireNotification/assets/image_background-1.png",
+        }
+      }
+      style={
+        Object {
+          "flex": 1,
+          "height": 1334,
+          "width": 750,
+        }
+      }
+    >
+      <ImageBackground
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/FireNotification/assets/image_background-2.png",
+          }
+        }
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 1334,
+            "width": 750,
+          }
+        }
+      >
+        <ScrollView
+          showsVerticalScrollIndicator={false}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "rgba(255,138,73,1)",
+                "justifyContent": "center",
+                "width": 750,
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/FireNotification/assets/image_fire.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 147,
+                  "marginTop": 50,
+                  "tintColor": "rgb(255,255,255)",
+                  "width": 147,
+                }
+              }
+            />
+            <Text
+              style={
+                Object {
+                  "color": "rgb(255,255,255)",
+                  "fontSize": 20,
+                  "fontWeight": "700",
+                  "paddingTop": 12,
+                }
+              }
+            >
+              Fire dispatch is confirmed.
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "rgb(255,255,255)",
+                  "fontSize": 20,
+                  "fontWeight": "700",
+                }
+              }
+            >
+              Help is on the way.
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "rgb(255,255,255)",
+                  "fontWeight": "400",
+                  "paddingTop": 15,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Sent to 
+              .
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "rgb(255,255,255)",
+                  "fontWeight": "400",
+                  "textAlign": "center",
+                }
+              }
+            >
+              Sent time: 
+            </Text>
+            <ForwardRef
+              onPress={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#454545",
+                  "borderRadius": 50,
+                  "elevation": 21,
+                  "height": 50,
+                  "justifyContent": "center",
+                  "marginTop": 50,
+                  "shadowColor": "#000",
+                  "shadowOffset": Object {
+                    "height": 10,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.53,
+                  "shadowRadius": 13.97,
+                  "width": 50,
+                }
+              }
+              testID="onFirecallID"
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../packages/blocks/FireNotification/assets/image_call.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 20,
+                    "tintColor": "rgb(255,255,255)",
+                    "width": 20,
+                  }
+                }
+              />
+            </ForwardRef>
+            <Text
+              style={
+                Object {
+                  "color": "#454545",
+                  "fontWeight": "700",
+                  "paddingBottom": 25,
+                  "paddingTop": 18,
+                }
+              }
+            >
+              Call to add info or to cancel fire alert.
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+                "width": 750,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#cdcdcd",
+                  "fontSize": 20,
+                  "fontWeight": "400",
+                  "paddingTop": 18,
+                }
+              }
+            >
+              We have alerted these contacts.
+            </Text>
+            <View
+              style={
+                Object {
+                  "marginTop": 5,
+                }
+              }
+            />
+            <ForwardRef
+              onPress={[Function]}
+              style={
+                Object {
+                  "marginVertical": 25,
+                }
+              }
+              testID="doneClickID"
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "rgba(255,138,73,1)",
+                    "fontSize": 18,
+                    "fontWeight": "400",
+                  }
+                }
+                testID="contactName"
+              >
+                Done
+              </Text>
+            </ForwardRef>
+          </View>
+        </ScrollView>
+      </ImageBackground>
+    </ImageBackground>
+  </View>
+</ForwardRef(SafeAreaView)>
+`;

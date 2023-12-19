@@ -1,0 +1,65 @@
+{
+  "id": "OnlineBackup",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/OnlineBackup",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "OnlineBackup"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "OnlineBackup": {
+        "file": "OnlineBackup.tsx",
+        "extends": "OnlineBackupController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "OnlineBackupController",
+            "path": "./OnlineBackupController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./OnlineBackupController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "OnlineBackup"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "OnlineBackupBlock": {
+        "file": "OnlineBackupBlock.tsx",
+        "extends": "OnlineBackupController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "OnlineBackupController",
+            "path": "./OnlineBackupController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./OnlineBackupController"
+          }
+        ]
+      }
+    }
+  }
+}

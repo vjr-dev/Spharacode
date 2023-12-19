@@ -1,0 +1,673 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Favourites User navigates to Favourites 1`] = `
+<ScrollView
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+    testID="hideKeyboardID"
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+        testID="labelTitle"
+      >
+        Favourites
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+        testID="labelBody"
+      >
+         
+        Favourites Body
+         
+      </Text>
+      <Text
+        testID="txtSaved"
+      >
+        This is the reviced value:
+        A
+         
+      </Text>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "padding": 10,
+          }
+        }
+      >
+        <Component
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          rejectResponderTermination={true}
+          secureTextEntry={false}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+          testID="txtInput"
+          underlineColorAndroid="transparent"
+        />
+        <ForwardRef
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/Favourites/assets/ic_password_invisible.png",
+              }
+            }
+            style={Object {}}
+            testID="btnShowHideImage"
+          />
+        </ForwardRef>
+      </View>
+      <Button
+        onPress={[Function]}
+        testID="btnExample"
+        title="CLICK ME"
+      />
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollView>
+`;
+
+exports[`Favourites User navigates to Favourites 2`] = `
+<ScrollView
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+    testID="hideKeyboardID"
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+        testID="labelTitle"
+      >
+        Favourites
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+        testID="labelBody"
+      >
+         
+        Favourites Body
+         
+      </Text>
+      <Text
+        testID="txtSaved"
+      >
+        This is the reviced value:
+        A
+         
+      </Text>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "padding": 10,
+          }
+        }
+      >
+        <Component
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          rejectResponderTermination={true}
+          secureTextEntry={false}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+          testID="txtInput"
+          underlineColorAndroid="transparent"
+        />
+        <ForwardRef
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/Favourites/assets/ic_password_invisible.png",
+              }
+            }
+            style={Object {}}
+            testID="btnShowHideImage"
+          />
+        </ForwardRef>
+      </View>
+      <Button
+        onPress={[Function]}
+        testID="btnExample"
+        title="CLICK ME"
+      />
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollView>
+`;
+
+exports[`Favourites User navigates to Favourites 3`] = `
+<ScrollView
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+    testID="hideKeyboardID"
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+        testID="labelTitle"
+      >
+        Favourites
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+        testID="labelBody"
+      >
+         
+        Favourites Body
+         
+      </Text>
+      <Text
+        testID="txtSaved"
+      >
+        This is the reviced value:
+        hello@aol.com
+         
+      </Text>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "padding": 10,
+          }
+        }
+      >
+        <Component
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          rejectResponderTermination={true}
+          secureTextEntry={false}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+          testID="txtInput"
+          underlineColorAndroid="transparent"
+        />
+        <ForwardRef
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/Favourites/assets/ic_password_invisible.png",
+              }
+            }
+            style={Object {}}
+            testID="btnShowHideImage"
+          />
+        </ForwardRef>
+      </View>
+      <Button
+        onPress={[Function]}
+        testID="btnExample"
+        title="CLICK ME"
+      />
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollView>
+`;
+
+exports[`Favourites User navigates to Favourites 4`] = `
+<ScrollView
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+    testID="hideKeyboardID"
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+        testID="labelTitle"
+      >
+        Favourites
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+        testID="labelBody"
+      >
+         
+        Favourites Body
+         
+      </Text>
+      <Text
+        testID="txtSaved"
+      >
+        This is the reviced value:
+        hello@aol.com
+         
+      </Text>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "padding": 10,
+          }
+        }
+      >
+        <Component
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          rejectResponderTermination={true}
+          secureTextEntry={false}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+          testID="txtInput"
+          underlineColorAndroid="transparent"
+        />
+        <ForwardRef
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/Favourites/assets/ic_password_invisible.png",
+              }
+            }
+            style={Object {}}
+            testID="btnShowHideImage"
+          />
+        </ForwardRef>
+      </View>
+      <Button
+        onPress={[Function]}
+        testID="btnExample"
+        title="CLICK ME"
+      />
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollView>
+`;
+
+exports[`Favourites User navigates to Favourites 5`] = `
+<ScrollView
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+    testID="hideKeyboardID"
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+        testID="labelTitle"
+      >
+        Favourites
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+        testID="labelBody"
+      >
+         
+        Favourites Body
+         
+      </Text>
+      <Text
+        testID="txtSaved"
+      >
+        This is the reviced value:
+        hello@aol.com
+         
+      </Text>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "padding": 10,
+          }
+        }
+      >
+        <Component
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          rejectResponderTermination={true}
+          secureTextEntry={false}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+          testID="txtInput"
+          underlineColorAndroid="transparent"
+        />
+        <ForwardRef
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/Favourites/assets/ic_password_invisible.png",
+              }
+            }
+            style={Object {}}
+            testID="btnShowHideImage"
+          />
+        </ForwardRef>
+      </View>
+      <Button
+        onPress={[Function]}
+        testID="btnExample"
+        title="CLICK ME"
+      />
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollView>
+`;
+
+exports[`Favourites User navigates to Favourites 6`] = `
+<ScrollView
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+    testID="hideKeyboardID"
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+        testID="labelTitle"
+      >
+        Favourites
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+        testID="labelBody"
+      >
+         
+        Favourites Body
+         
+      </Text>
+      <Text
+        testID="txtSaved"
+      >
+        This is the reviced value:
+        hello@aol.com
+         
+      </Text>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "padding": 10,
+          }
+        }
+      >
+        <Component
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          rejectResponderTermination={true}
+          secureTextEntry={false}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+          testID="txtInput"
+          underlineColorAndroid="transparent"
+        />
+        <ForwardRef
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/Favourites/assets/ic_password_invisible.png",
+              }
+            }
+            style={Object {}}
+            testID="btnShowHideImage"
+          />
+        </ForwardRef>
+      </View>
+      <Button
+        onPress={[Function]}
+        testID="btnExample"
+        title="CLICK ME"
+      />
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollView>
+`;

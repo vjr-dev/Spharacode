@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stripe Web View User navigates to Stripe Web View 1`] = `
+<SafeAreaView
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <StatusBar
+    animated={false}
+    backgroundColor="#54595F"
+    barStyle="light-content"
+    hidden={false}
+    showHideTransition="fade"
+    translucent={true}
+  />
+  <WebView
+    cacheEnabled={true}
+    javaScriptEnabled={true}
+    originWhitelist={
+      Array [
+        "http://*",
+        "https://*",
+      ]
+    }
+    source={
+      Object {
+        "uri": "https://www.google.com/",
+      }
+    }
+    useSharedProcessPool={true}
+  />
+</SafeAreaView>
+`;

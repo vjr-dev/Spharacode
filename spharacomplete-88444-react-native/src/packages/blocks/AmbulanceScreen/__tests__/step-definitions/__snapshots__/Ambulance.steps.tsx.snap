@@ -1,0 +1,508 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AmbulanceScreen User navigates to AmbulanceScreen 1`] = `
+<ForwardRef(SafeAreaView)
+  style={
+    Object {
+      "backgroundColor": "#454545",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "width": 750,
+      }
+    }
+  >
+    <ImageBackground
+      source={
+        Object {
+          "testUri": "../../../packages/blocks/AmbulanceScreen/assets/image_background-1.png",
+        }
+      }
+      style={
+        Object {
+          "height": "100%",
+          "width": 750,
+        }
+      }
+    >
+      <ImageBackground
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/AmbulanceScreen/assets/image_background-2.png",
+          }
+        }
+        style={
+          Object {
+            "alignItems": "center",
+            "height": "100%",
+            "width": 750,
+          }
+        }
+      >
+        <KeyboardAvoidingView
+          behavior="height"
+          enabled={true}
+          keyboardVerticalOffset={1}
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "height": 60,
+                "justifyContent": "space-between",
+                "width": 750,
+              }
+            }
+          >
+            <ForwardRef
+              onPress={[Function]}
+              style={
+                Object {
+                  "marginLeft": 20,
+                  "marginTop": 22,
+                }
+              }
+              testID="btnGoBack"
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../packages/blocks/AmbulanceScreen/assets/image_back.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 15,
+                    "tintColor": "#f07233",
+                    "width": 15,
+                  }
+                }
+              />
+            </ForwardRef>
+          </View>
+          <ScrollView>
+            <View
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "height": 30,
+                  "justifyContent": "center",
+                  "marginTop": 40,
+                  "width": 730,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "rgb(255,255,255)",
+                    "fontSize": 20,
+                  }
+                }
+              >
+                Incident Report
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#a1a1a1",
+                    "fontSize": 16,
+                    "marginTop": 5,
+                    "width": 730,
+                  }
+                }
+              >
+                Please fill following information as it will provide
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#a1a1a1",
+                    "fontSize": 16,
+                    "width": 730,
+                  }
+                }
+              >
+                better insight on incident.
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "height": 30,
+                  "justifyContent": "center",
+                  "marginTop": 40,
+                  "width": 730,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#cdcdcd",
+                  }
+                }
+              >
+                Call Ambulance for?
+              </Text>
+            </View>
+            <Component
+              hardwareAccelerated={false}
+              transparent={true}
+              visible={false}
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "height": 1334,
+                    "justifyContent": "center",
+                    "width": 750,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "alignSelf": "center",
+                      "height": 100,
+                      "justifyContent": "center",
+                      "width": 730,
+                    }
+                  }
+                >
+                  <ActivityIndicator
+                    animating={true}
+                    color="#f07233"
+                    hidesWhenStopped={true}
+                    size="large"
+                  />
+                </View>
+              </View>
+            </Component>
+            <View
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "flexDirection": "row",
+                  "flexWrap": "wrap",
+                  "paddingRight": 5,
+                  "width": 750,
+                }
+              }
+            >
+              <ForwardRef
+                key="0"
+                onPress={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "borderRadius": 50,
+                      "height": 50,
+                      "justifyContent": "center",
+                      "marginLeft": 5,
+                      "marginTop": 10,
+                      "paddingHorizontal": 20,
+                    },
+                    Object {
+                      "backgroundColor": "#515151",
+                    },
+                  ]
+                }
+                testID="ambulanceoptiontId"
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#a1a1a1",
+                    }
+                  }
+                />
+              </ForwardRef>
+              <ForwardRef
+                key="1"
+                onPress={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "borderRadius": 50,
+                      "height": 50,
+                      "justifyContent": "center",
+                      "marginLeft": 5,
+                      "marginTop": 10,
+                      "paddingHorizontal": 20,
+                    },
+                    Object {
+                      "backgroundColor": "#515151",
+                    },
+                  ]
+                }
+                testID="ambulanceoptiontId"
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#a1a1a1",
+                    }
+                  }
+                />
+              </ForwardRef>
+              <ForwardRef
+                key="2"
+                onPress={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "borderRadius": 50,
+                      "height": 50,
+                      "justifyContent": "center",
+                      "marginLeft": 5,
+                      "marginTop": 10,
+                      "paddingHorizontal": 20,
+                    },
+                    Object {
+                      "backgroundColor": "#515151",
+                    },
+                  ]
+                }
+                testID="ambulanceoptiontId"
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#a1a1a1",
+                    }
+                  }
+                />
+              </ForwardRef>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "height": 30,
+                  "justifyContent": "center",
+                  "marginTop": 40,
+                  "width": 730,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#cdcdcd",
+                  }
+                }
+              >
+                How many people need treatment?
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "backgroundColor": "#515151",
+                  "borderRadius": 50,
+                  "height": 50,
+                  "justifyContent": "center",
+                  "marginTop": 10,
+                  "width": 730,
+                }
+              }
+            >
+              <Component
+                allowFontScaling={true}
+                keyboardType="number-pad"
+                maxLength={10}
+                onChangeText={[Function]}
+                placeholder=""
+                placeholderTextColor="#a1a1a1"
+                rejectResponderTermination={true}
+                style={
+                  Object {
+                    "color": "#a1a1a1",
+                    "marginLeft": 20,
+                  }
+                }
+                testID="numericvaluetext"
+                underlineColorAndroid="transparent"
+                value="9"
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "height": 30,
+                  "justifyContent": "center",
+                  "marginTop": 40,
+                  "width": 730,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#cdcdcd",
+                  }
+                }
+              >
+                Take some pictures
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "flexDirection": "row",
+                  "height": 50,
+                  "justifyContent": "space-around",
+                  "marginTop": 10,
+                  "width": 730,
+                }
+              }
+            >
+              <ForwardRef
+                onPress={[Function]}
+                style={
+                  Object {
+                    "height": 50,
+                    "width": 50,
+                  }
+                }
+                testID="imgclick1"
+              >
+                <Image
+                  source={
+                    Object {
+                      "uri": "data:image/jpeg;base64,test_base64_data",
+                    }
+                  }
+                  style={
+                    Object {
+                      "borderRadius": 10,
+                      "height": "100%",
+                      "width": "100%",
+                    }
+                  }
+                />
+              </ForwardRef>
+              <ForwardRef
+                onPress={[Function]}
+                style={
+                  Object {
+                    "height": 50,
+                    "width": 50,
+                  }
+                }
+                testID="imgclick2"
+              >
+                <Image
+                  source={
+                    Object {
+                      "uri": "data:image/jpeg;base64,test_base64_data",
+                    }
+                  }
+                  style={
+                    Object {
+                      "borderRadius": 10,
+                      "height": "100%",
+                      "width": "100%",
+                    }
+                  }
+                />
+              </ForwardRef>
+              <ForwardRef
+                onPress={[Function]}
+                style={
+                  Object {
+                    "height": 50,
+                    "width": 50,
+                  }
+                }
+                testID="imgclick3"
+              >
+                <Image
+                  source={
+                    Object {
+                      "uri": "data:image/jpeg;base64,test_base64_data",
+                    }
+                  }
+                  style={
+                    Object {
+                      "borderRadius": 10,
+                      "height": "100%",
+                      "width": "100%",
+                    }
+                  }
+                />
+              </ForwardRef>
+              <ForwardRef
+                onPress={[Function]}
+                style={
+                  Object {
+                    "height": 50,
+                    "width": 50,
+                  }
+                }
+                testID="imgclick4"
+              >
+                <Image
+                  source={
+                    Object {
+                      "uri": "data:image/jpeg;base64,test_base64_data",
+                    }
+                  }
+                  style={
+                    Object {
+                      "borderRadius": 10,
+                      "height": "100%",
+                      "width": "100%",
+                    }
+                  }
+                />
+              </ForwardRef>
+            </View>
+            <ForwardRef
+              onPress={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "backgroundColor": "rgba(255,138,73,1)",
+                  "borderRadius": 50,
+                  "height": 50,
+                  "justifyContent": "center",
+                  "marginVertical": 25,
+                  "width": 730,
+                }
+              }
+              testID="onSendClickHitPostAPI"
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "rgb(255,255,255)",
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                SEND
+              </Text>
+            </ForwardRef>
+          </ScrollView>
+        </KeyboardAvoidingView>
+      </ImageBackground>
+    </ImageBackground>
+  </View>
+</ForwardRef(SafeAreaView)>
+`;

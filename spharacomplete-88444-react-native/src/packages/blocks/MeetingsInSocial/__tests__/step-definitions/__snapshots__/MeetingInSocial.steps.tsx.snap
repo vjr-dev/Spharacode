@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MeetingInSocial User navigates to MeetingInSocial 1`] = `
+<SafeAreaView
+  style={
+    Object {
+      "backgroundColor": "#454545",
+      "flex": 1,
+    }
+  }
+>
+  <ImageBackground
+    source={
+      Object {
+        "testUri": "../../../packages/blocks/MeetingsInSocial/assets/image_background-1.png",
+      }
+    }
+    style={
+      Object {
+        "flex": 1,
+        "height": 1334,
+        "width": 750,
+      }
+    }
+  >
+    <ImageBackground
+      source={
+        Object {
+          "testUri": "../../../packages/blocks/MeetingsInSocial/assets/image_background-2.png",
+        }
+      }
+      style={
+        Object {
+          "flex": 1,
+          "height": 1334,
+          "width": 750,
+        }
+      }
+    >
+      <Text>
+        Meetings Tab
+      </Text>
+    </ImageBackground>
+  </ImageBackground>
+</SafeAreaView>
+`;

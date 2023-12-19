@@ -1,0 +1,263 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mobile Phone Account Log In User navigates to Donation Screen 1`] = `
+<SafeAreaView
+  style={
+    Object {
+      "backgroundColor": "#f17234",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "width": 750,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": undefined,
+          "height": 1334,
+          "width": 750,
+        }
+      }
+    >
+      <Image
+        resizeMode="contain"
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/DonationScreen/assets/thanks.png",
+          }
+        }
+        style={
+          Object {
+            "height": 196,
+            "marginTop": 98,
+            "width": 196,
+          }
+        }
+      />
+      <StatusBar
+        animated={false}
+        backgroundColor="#f17234"
+        barStyle="default"
+        showHideTransition="fade"
+      />
+      <Text
+        style={
+          Object {
+            "color": "rgb(0,0,0)",
+            "fontSize": 19,
+            "fontWeight": "500",
+            "marginTop": 78,
+            "textAlign": "center",
+            "width": 726,
+          }
+        }
+      >
+        Thank you for considering making donation!
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "rgb(0,0,0)",
+            "fontSize": 13,
+            "marginTop": 20,
+            "textAlign": "center",
+            "width": 681,
+          }
+        }
+      >
+        SPHARA needs your help to ensure funds and resources continue to be available to the brave men and women who protect and save our communities every day. Any amount you can donate is appreciated and will have our complete gratitude’s.
+      </Text>
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": undefined,
+            "borderRadius": 30,
+            "height": 50,
+            "justifyContent": "center",
+            "marginTop": 196,
+            "width": "90%",
+          }
+        }
+        testID="socialWelfareActtivityButton"
+      >
+        <Text
+          style={
+            Object {
+              "color": "rgb(255,255,255)",
+            }
+          }
+        >
+          SOCIAL WELFARE ACTIVITY
+        </Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": undefined,
+            "borderRadius": 30,
+            "height": 50,
+            "justifyContent": "center",
+            "marginTop": 78,
+            "width": "90%",
+          }
+        }
+        testID="spharaButton"
+      >
+        <Text
+          style={
+            Object {
+              "color": "rgb(255,255,255)",
+            }
+          }
+        >
+          SPHARA
+        </Text>
+      </TouchableOpacity>
+    </View>
+  </View>
+</SafeAreaView>
+`;
+
+exports[`Mobile Phone Account Log In User navigates to Donation Screen 2`] = `
+<SafeAreaView
+  style={
+    Object {
+      "backgroundColor": "#f17234",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "width": 750,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": undefined,
+          "height": 1334,
+          "width": 750,
+        }
+      }
+    >
+      <Image
+        resizeMode="contain"
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/DonationScreen/assets/thanks.png",
+          }
+        }
+        style={
+          Object {
+            "height": 196,
+            "marginTop": 98,
+            "width": 196,
+          }
+        }
+      />
+      <StatusBar
+        animated={false}
+        backgroundColor="#f17234"
+        barStyle="default"
+        showHideTransition="fade"
+      />
+      <Text
+        style={
+          Object {
+            "color": "rgb(0,0,0)",
+            "fontSize": 19,
+            "fontWeight": "500",
+            "marginTop": 78,
+            "textAlign": "center",
+            "width": 726,
+          }
+        }
+      >
+        Thank you for considering making donation!
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "rgb(0,0,0)",
+            "fontSize": 13,
+            "marginTop": 20,
+            "textAlign": "center",
+            "width": 681,
+          }
+        }
+      >
+        SPHARA needs your help to ensure funds and resources continue to be available to the brave men and women who protect and save our communities every day. Any amount you can donate is appreciated and will have our complete gratitude’s.
+      </Text>
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": undefined,
+            "borderRadius": 30,
+            "height": 50,
+            "justifyContent": "center",
+            "marginTop": 196,
+            "width": "90%",
+          }
+        }
+        testID="socialWelfareActtivityButton"
+      >
+        <Text
+          style={
+            Object {
+              "color": "rgb(255,255,255)",
+            }
+          }
+        >
+          SOCIAL WELFARE ACTIVITY
+        </Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": undefined,
+            "borderRadius": 30,
+            "height": 50,
+            "justifyContent": "center",
+            "marginTop": 78,
+            "width": "90%",
+          }
+        }
+        testID="spharaButton"
+      >
+        <Text
+          style={
+            Object {
+              "color": "rgb(255,255,255)",
+            }
+          }
+        >
+          SPHARA
+        </Text>
+      </TouchableOpacity>
+    </View>
+  </View>
+</SafeAreaView>
+`;

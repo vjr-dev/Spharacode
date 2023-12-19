@@ -1,0 +1,65 @@
+{
+  "id": "CfVoiceAuthentication2",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/CfVoiceAuthentication2",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CfVoiceAuthentication2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CfVoiceAuthentication2": {
+        "file": "CfVoiceAuthentication2.tsx",
+        "extends": "CfVoiceAuthentication2Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "CfVoiceAuthentication2Controller",
+            "path": "./CfVoiceAuthentication2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfVoiceAuthentication2Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CfVoiceAuthentication2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CfVoiceAuthentication2Block": {
+        "file": "CfVoiceAuthentication2Block.tsx",
+        "extends": "CfVoiceAuthentication2Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "CfVoiceAuthentication2Controller",
+            "path": "./CfVoiceAuthentication2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfVoiceAuthentication2Controller"
+          }
+        ]
+      }
+    }
+  }
+}

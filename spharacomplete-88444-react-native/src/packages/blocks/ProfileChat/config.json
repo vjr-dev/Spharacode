@@ -1,0 +1,36 @@
+{
+  "id": "ProfileChat",
+  "version": "1.0.0",
+  "status": "release",
+  "path": "./packages/blocks/ProfileChat",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ProfileChat"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ProfileChat": {
+        "file": "ProfileChat.tsx",
+        "extends": "ProfileChatController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ProfileChatController",
+            "path": "./ProfileChatController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ProfileChatController"
+          }
+        ]
+      }
+    }
+  }
+}

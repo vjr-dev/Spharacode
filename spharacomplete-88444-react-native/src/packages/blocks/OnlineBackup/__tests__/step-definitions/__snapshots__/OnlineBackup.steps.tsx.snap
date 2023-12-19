@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OnlineBackup User navigates to OnlineBackup 1`] = `<View />`;
+
+exports[`OnlineBackup User navigates to OnlineBackup 2`] = `<View />`;

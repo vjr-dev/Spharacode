@@ -1,0 +1,65 @@
+{
+  "id": "CfMultiregionSupport",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/CfMultiregionSupport",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CfMultiregionSupport"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CfMultiregionSupport": {
+        "file": "CfMultiregionSupport.tsx",
+        "extends": "CfMultiregionSupportController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "CfMultiregionSupportController",
+            "path": "./CfMultiregionSupportController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfMultiregionSupportController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CfMultiregionSupport"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CfMultiregionSupportBlock": {
+        "file": "CfMultiregionSupportBlock.tsx",
+        "extends": "CfMultiregionSupportController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "CfMultiregionSupportController",
+            "path": "./CfMultiregionSupportController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfMultiregionSupportController"
+          }
+        ]
+      }
+    }
+  }
+}

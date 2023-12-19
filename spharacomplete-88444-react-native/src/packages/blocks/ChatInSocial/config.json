@@ -1,0 +1,40 @@
+{
+  "id": "Chat",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/Chat",
+  "assembler-adapters": [
+    "ChatAdapter"
+  ],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Chat"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "Chat"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Chat": {
+        "file": "Chat.tsx",
+        "extends": "ChatController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ChatController",
+            "path": "./ChatController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ChatController"
+          }
+        ]
+      }
+    }
+  }
+  
+}

@@ -1,0 +1,65 @@
+{
+  "id": "CfGoogleDriveIntegration2",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/CfGoogleDriveIntegration2",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CfGoogleDriveIntegration2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CfGoogleDriveIntegration2": {
+        "file": "CfGoogleDriveIntegration2.tsx",
+        "extends": "CfGoogleDriveIntegration2Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "CfGoogleDriveIntegration2Controller",
+            "path": "./CfGoogleDriveIntegration2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfGoogleDriveIntegration2Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CfGoogleDriveIntegration2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CfGoogleDriveIntegration2Block": {
+        "file": "CfGoogleDriveIntegration2Block.tsx",
+        "extends": "CfGoogleDriveIntegration2Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "CfGoogleDriveIntegration2Controller",
+            "path": "./CfGoogleDriveIntegration2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfGoogleDriveIntegration2Controller"
+          }
+        ]
+      }
+    }
+  }
+}

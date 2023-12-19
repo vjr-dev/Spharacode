@@ -1,0 +1,65 @@
+{
+  "id": "AudioCall",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/AudioCall",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "AudioCall"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "AudioCall": {
+        "file": "AudioCall.tsx",
+        "extends": "AudioCallController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "AudioCallController",
+            "path": "./AudioCallController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./AudioCallController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "AudioCall"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "AudioCallBlock": {
+        "file": "AudioCallBlock.tsx",
+        "extends": "AudioCallController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "AudioCallController",
+            "path": "./AudioCallController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./AudioCallController"
+          }
+        ]
+      }
+    }
+  }
+}

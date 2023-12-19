@@ -1,0 +1,65 @@
+{
+  "id": "CustomisedOrderStatus",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/CustomisedOrderStatus",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CustomisedOrderStatus"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CustomisedOrderStatus": {
+        "file": "CustomisedOrderStatus.tsx",
+        "extends": "CustomisedOrderStatusController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "CustomisedOrderStatusController",
+            "path": "./CustomisedOrderStatusController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CustomisedOrderStatusController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CustomisedOrderStatus"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CustomisedOrderStatusBlock": {
+        "file": "CustomisedOrderStatusBlock.tsx",
+        "extends": "CustomisedOrderStatusController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "CustomisedOrderStatusController",
+            "path": "./CustomisedOrderStatusController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CustomisedOrderStatusController"
+          }
+        ]
+      }
+    }
+  }
+}

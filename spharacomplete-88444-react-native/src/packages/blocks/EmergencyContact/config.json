@@ -1,0 +1,39 @@
+{
+  "id": "EmergencyContact",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/EmergencyContact",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "EmergencyContact"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "EmergencyContact": {
+        "file": "EmergencyContact.tsx",
+        "extends": "EmergencyContactController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": []
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "EmergencyContact"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {}
+  }
+}

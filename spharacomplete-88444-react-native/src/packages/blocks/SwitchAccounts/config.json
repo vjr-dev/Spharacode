@@ -1,0 +1,65 @@
+{
+  "id": "SwitchAccounts",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/SwitchAccounts",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "SwitchAccounts"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "SwitchAccounts": {
+        "file": "SwitchAccounts.tsx",
+        "extends": "SwitchAccountsController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "SwitchAccountsController",
+            "path": "./SwitchAccountsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./SwitchAccountsController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "SwitchAccounts"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "SwitchAccountsBlock": {
+        "file": "SwitchAccountsBlock.tsx",
+        "extends": "SwitchAccountsController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "SwitchAccountsController",
+            "path": "./SwitchAccountsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./SwitchAccountsController"
+          }
+        ]
+      }
+    }
+  }
+}

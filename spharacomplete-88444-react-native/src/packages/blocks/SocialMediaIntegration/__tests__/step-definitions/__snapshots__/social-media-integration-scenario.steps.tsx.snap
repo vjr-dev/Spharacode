@@ -1,0 +1,2039 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Social Media Integration Screen User navigates to Social Media Integration Screen 1`] = `
+<SafeAreaView
+  style={
+    Object {
+      "backgroundColor": "#454545",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "width": 750,
+      }
+    }
+  >
+    <StatusBar
+      animated={true}
+      backgroundColor="#454545"
+      barStyle="light-content"
+      showHideTransition="slide"
+    />
+    <ImageBackground
+      source={
+        Object {
+          "testUri": "../../../packages/blocks/SocialMediaIntegration/assets/image_background-1.png",
+        }
+      }
+      style={
+        Object {
+          "height": 1334,
+          "width": 750,
+        }
+      }
+    >
+      <ImageBackground
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/SocialMediaIntegration/assets/image_background-2.png",
+          }
+        }
+        style={
+          Object {
+            "alignItems": "center",
+            "height": 1334,
+            "width": 750,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "height": 60,
+              "justifyContent": "center",
+              "width": 750,
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Object {
+                "marginLeft": 20,
+              }
+            }
+            testID="socialMediaBackButton"
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/SocialMediaIntegration/assets/image_back.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 15,
+                  "tintColor": "#f07233",
+                  "width": 15,
+                }
+              }
+            />
+          </TouchableOpacity>
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "rgb(255,255,255)",
+              "fontSize": 39,
+              "fontWeight": "700",
+              "marginTop": 50,
+              "width": 730,
+            }
+          }
+        >
+          Social Media Access.
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": undefined,
+              "fontSize": 26,
+              "marginTop": 10,
+              "width": 730,
+            }
+          }
+        >
+          Connect SPHARA with social media to alert your
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": undefined,
+              "fontSize": 26,
+              "marginTop": 5,
+              "width": 730,
+            }
+          }
+        >
+          friend and friends in times of emergency.
+        </Text>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "flexDirection": "row",
+              "height": 50,
+              "marginTop": 40,
+              "width": 730,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/SocialMediaIntegration/assets/whatsapp.png",
+              }
+            }
+            style={
+              Object {
+                "height": 49,
+                "marginLeft": 10,
+                "marginRight": 29,
+                "tintColor": undefined,
+                "width": 49,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "height": "100%",
+                "width": "70%",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": undefined,
+                  "fontSize": 27,
+                  "width": "100%",
+                }
+              }
+            >
+              Whatsapp
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": undefined,
+                  "fontSize": 22,
+                  "width": "100%",
+                }
+              }
+            >
+              allows app to send alert message via Whatsapp
+            </Text>
+          </View>
+          <Switch
+            ios_backgroundColor="#000"
+            onValueChange={[Function]}
+            testID="socialMediaWhatsappSwitch"
+            thumbColor="rgb(255,255,255)"
+            trackColor={
+              Object {
+                "false": "rgb(0,0,0)",
+                "true": undefined,
+              }
+            }
+            value={false}
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "flexDirection": "row",
+              "height": 50,
+              "marginTop": 20,
+              "width": 730,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/SocialMediaIntegration/assets/facebook.png",
+              }
+            }
+            style={
+              Object {
+                "height": 49,
+                "marginLeft": 10,
+                "marginRight": 29,
+                "tintColor": undefined,
+                "width": 49,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "height": "100%",
+                "width": "70%",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": undefined,
+                  "fontSize": 27,
+                  "width": "100%",
+                }
+              }
+            >
+              Facebook Post
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": undefined,
+                  "fontSize": 22,
+                  "width": "100%",
+                }
+              }
+            >
+              allows app to post alert message in Facebook wall.
+            </Text>
+          </View>
+          <Switch
+            ios_backgroundColor="#000"
+            onValueChange={[Function]}
+            testID="socialMediaFacebookSwitch"
+            thumbColor="rgb(255,255,255)"
+            trackColor={
+              Object {
+                "false": "rgb(0,0,0)",
+                "true": undefined,
+              }
+            }
+            value={false}
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "flexDirection": "row",
+              "height": 50,
+              "marginTop": 20,
+              "width": 730,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/SocialMediaIntegration/assets/instagram.png",
+              }
+            }
+            style={
+              Object {
+                "height": 49,
+                "marginLeft": 10,
+                "marginRight": 29,
+                "tintColor": undefined,
+                "width": 49,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "height": "100%",
+                "width": "70%",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": undefined,
+                  "fontSize": 27,
+                  "width": "100%",
+                }
+              }
+            >
+              Instagram
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": undefined,
+                  "fontSize": 22,
+                  "width": "100%",
+                }
+              }
+            >
+              allows app to post alert message in Instagram feed.
+            </Text>
+          </View>
+          <Switch
+            ios_backgroundColor="#000"
+            onValueChange={[Function]}
+            testID="socialMediaInstagramSwitch"
+            thumbColor="rgb(255,255,255)"
+            trackColor={
+              Object {
+                "false": "rgb(0,0,0)",
+                "true": undefined,
+              }
+            }
+            value={false}
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "flexDirection": "row",
+              "height": 50,
+              "marginTop": 20,
+              "width": 730,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/SocialMediaIntegration/assets/twitter-sign.png",
+              }
+            }
+            style={
+              Object {
+                "height": 49,
+                "marginLeft": 10,
+                "marginRight": 29,
+                "tintColor": undefined,
+                "width": 49,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "height": "100%",
+                "width": "70%",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": undefined,
+                  "fontSize": 27,
+                  "width": "100%",
+                }
+              }
+            >
+              Twitter
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": undefined,
+                  "fontSize": 22,
+                  "width": "100%",
+                }
+              }
+            >
+              allows app to post alert message in Twitter.
+            </Text>
+          </View>
+          <Switch
+            ios_backgroundColor="#000"
+            onValueChange={[Function]}
+            testID="socialMediaTwitterSwitch"
+            thumbColor="rgb(255,255,255)"
+            trackColor={
+              Object {
+                "false": "rgb(0,0,0)",
+                "true": undefined,
+              }
+            }
+            value={false}
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "flexDirection": "row",
+              "height": 50,
+              "marginTop": 20,
+              "width": 730,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/SocialMediaIntegration/assets/linkedin.png",
+              }
+            }
+            style={
+              Object {
+                "height": 49,
+                "marginLeft": 10,
+                "marginRight": 29,
+                "tintColor": undefined,
+                "width": 49,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "height": "100%",
+                "width": "70%",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": undefined,
+                  "fontSize": 27,
+                  "width": "100%",
+                }
+              }
+            >
+              Linkedin
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": undefined,
+                  "fontSize": 22,
+                  "width": "100%",
+                }
+              }
+            >
+              allows app to post alert message in Linkedin.
+            </Text>
+          </View>
+          <Switch
+            ios_backgroundColor="#000"
+            onValueChange={[Function]}
+            testID="socialMediaLinkedinSwitch"
+            thumbColor="rgb(255,255,255)"
+            trackColor={
+              Object {
+                "false": "rgb(0,0,0)",
+                "true": undefined,
+              }
+            }
+            value={false}
+          />
+        </View>
+        <Component
+          hardwareAccelerated={false}
+          transparent={true}
+          visible={false}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "height": 1334,
+                "justifyContent": "center",
+                "width": 750,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "backgroundColor": "#fff",
+                  "justifyContent": "center",
+                  "width": 711,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#e3e3e3",
+                    "height": 50,
+                    "justifyContent": "center",
+                    "width": "100%",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "marginLeft": 20,
+                    }
+                  }
+                >
+                  WhatsApp Access
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "height": 65,
+                    "marginTop": 15,
+                    "width": "100%",
+                  }
+                }
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../packages/blocks/SocialMediaIntegration/assets/profile.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "borderRadius": 50,
+                      "height": 50,
+                      "marginLeft": 15,
+                      "width": 50,
+                    }
+                  }
+                />
+                <TouchableOpacity
+                  activeOpacity={0.2}
+                >
+                  <Image
+                    source={
+                      Object {
+                        "testUri": "../../../packages/blocks/SocialMediaIntegration/assets/pencil.png",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 20,
+                        "marginTop": 45,
+                        "width": 20,
+                      }
+                    }
+                  />
+                </TouchableOpacity>
+                <View
+                  style={
+                    Object {
+                      "height": "100%",
+                      "justifyContent": "center",
+                      "width": "77%",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "justifyContent": "center",
+                      }
+                    }
+                  >
+                    Enter your Whatsapp account number
+                     
+                  </Text>
+                  <TextInput
+                    allowFontScaling={true}
+                    onChangeText={[Function]}
+                    rejectResponderTermination={true}
+                    style={
+                      Object {
+                        "borderBottomWidth": 1,
+                        "height": "60%",
+                      }
+                    }
+                    testID="socialMediaWhatappAccountNumberInput"
+                    underlineColorAndroid="transparent"
+                    value=""
+                  />
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "marginTop": 30,
+                    "width": "100%",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "marginLeft": "15%",
+                      "width": "85%",
+                    }
+                  }
+                >
+                  App will send alert messages to only those contacts which you have saved in emergency contacts list. ensure those contacts have account in Whatsapp.
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 50,
+                    "width": "100%",
+                  }
+                }
+              >
+                <CheckBox
+                  isChecked={false}
+                  isIndeterminate={false}
+                  leftTextStyle={Object {}}
+                  onClick={[Function]}
+                  rightTextStyle={Object {}}
+                  style={
+                    Object {
+                      "alignSelf": "center",
+                      "marginLeft": 20,
+                      "marginRight": 10,
+                    }
+                  }
+                  testID="whatsappcheckBox"
+                />
+                <Text
+                  style={
+                    Object {
+                      "width": "75%",
+                    }
+                  }
+                >
+                  Allow SPHARA to access your WhatsApp account.
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "height": 50,
+                    "justifyContent": "flex-end",
+                    "width": "100%",
+                  }
+                }
+              >
+                <TouchableOpacity
+                  activeOpacity={0.2}
+                  onPress={[Function]}
+                  testID="whatsappModalCancelButton"
+                >
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 17,
+                        "marginRight": 20,
+                      }
+                    }
+                  >
+                    CANCEL
+                  </Text>
+                </TouchableOpacity>
+                <TouchableOpacity
+                  activeOpacity={0.2}
+                  disabled={true}
+                  onPress={[Function]}
+                  testID="whatsappModalContinueButton"
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "gray",
+                        "fontSize": 17,
+                        "marginRight": 20,
+                      }
+                    }
+                  >
+                    CONTINUE
+                  </Text>
+                </TouchableOpacity>
+              </View>
+            </View>
+          </View>
+        </Component>
+        <Component
+          hardwareAccelerated={false}
+          transparent={true}
+          visible={false}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "height": 1334,
+                "justifyContent": "center",
+                "width": 750,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "backgroundColor": "#fff",
+                  "justifyContent": "center",
+                  "width": 711,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#e3e3e3",
+                    "height": 98,
+                    "justifyContent": "center",
+                    "width": "100%",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "marginLeft": 39,
+                    }
+                  }
+                >
+                  Facebook Access
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "height": 128,
+                    "marginTop": 29,
+                    "width": "100%",
+                  }
+                }
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../packages/blocks/SocialMediaIntegration/assets/profile.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "borderRadius": 98,
+                      "height": 98,
+                      "marginLeft": 29,
+                      "width": 98,
+                    }
+                  }
+                />
+                <TouchableOpacity
+                  activeOpacity={0.2}
+                >
+                  <Image
+                    source={
+                      Object {
+                        "testUri": "../../../packages/blocks/SocialMediaIntegration/assets/pencil.png",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 39,
+                        "marginTop": 88,
+                        "width": 39,
+                      }
+                    }
+                  />
+                </TouchableOpacity>
+                <View
+                  style={
+                    Object {
+                      "height": "100%",
+                      "justifyContent": "center",
+                      "width": "77%",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "justifyContent": "center",
+                      }
+                    }
+                  >
+                    Enter your account
+                  </Text>
+                  <TextInput
+                    allowFontScaling={true}
+                    keyboardType="email-address"
+                    onChangeText={[Function]}
+                    rejectResponderTermination={true}
+                    style={
+                      Object {
+                        "borderBottomWidth": 1,
+                        "height": "60%",
+                      }
+                    }
+                    testID="socialMediaFacebookAccountInput"
+                    underlineColorAndroid="transparent"
+                    value=""
+                  />
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 98,
+                    "width": "100%",
+                  }
+                }
+              >
+                <CheckBox
+                  isChecked={false}
+                  isIndeterminate={false}
+                  leftTextStyle={Object {}}
+                  onClick={[Function]}
+                  rightTextStyle={Object {}}
+                  style={
+                    Object {
+                      "marginLeft": 39,
+                      "marginRight": 20,
+                    }
+                  }
+                  testID="facebookcheckBox"
+                />
+                <View
+                  style={
+                    Object {
+                      "width": "75%",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "width": "100%",
+                      }
+                    }
+                  >
+                    SPHARA is requesting to do the following.
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                        "marginTop": 20,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "#cccccc",
+                          "borderRadius": 4,
+                          "height": 39,
+                          "justifyContent": "center",
+                          "marginRight": 29,
+                          "width": 39,
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          Object {
+                            "color": "#fff",
+                          }
+                        }
+                      >
+                        1
+                      </Text>
+                    </View>
+                    <Text>
+                      Access my basic Information.
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                        "marginTop": 5,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "#cccccc",
+                          "borderRadius": 4,
+                          "height": 39,
+                          "justifyContent": "center",
+                          "marginRight": 29,
+                          "width": 39,
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          Object {
+                            "color": "#fff",
+                          }
+                        }
+                      >
+                        2
+                      </Text>
+                    </View>
+                    <Text>
+                      Post alert message on my wall.
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                        "marginTop": 5,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "#cccccc",
+                          "borderRadius": 4,
+                          "height": 39,
+                          "justifyContent": "center",
+                          "marginRight": 29,
+                          "width": 39,
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          Object {
+                            "color": "#fff",
+                          }
+                        }
+                      >
+                        3
+                      </Text>
+                    </View>
+                    <Text>
+                      Access my profile Information.
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "height": 98,
+                    "justifyContent": "flex-end",
+                    "marginTop": 98,
+                    "width": "100%",
+                  }
+                }
+              >
+                <TouchableOpacity
+                  activeOpacity={0.2}
+                  onPress={[Function]}
+                  testID="facebookModalCancelButton"
+                >
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 17,
+                        "marginRight": 39,
+                      }
+                    }
+                  >
+                    CANCEL
+                  </Text>
+                </TouchableOpacity>
+                <TouchableOpacity
+                  activeOpacity={0.2}
+                  disabled={true}
+                  onPress={[Function]}
+                  testID="facebookModalContinueButton"
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "gray",
+                        "fontSize": 33,
+                        "marginRight": 39,
+                      }
+                    }
+                  >
+                    CONTINUE
+                  </Text>
+                </TouchableOpacity>
+              </View>
+            </View>
+          </View>
+        </Component>
+        <Component
+          hardwareAccelerated={false}
+          transparent={true}
+          visible={false}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "height": 1334,
+                "justifyContent": "center",
+                "width": 750,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "backgroundColor": "#fff",
+                  "justifyContent": "center",
+                  "width": 711,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#e3e3e3",
+                    "height": 98,
+                    "justifyContent": "center",
+                    "width": "100%",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "marginLeft": 39,
+                    }
+                  }
+                >
+                  Instagram Access
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "height": 128,
+                    "marginTop": 29,
+                    "width": "100%",
+                  }
+                }
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../packages/blocks/SocialMediaIntegration/assets/profile.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "borderRadius": 98,
+                      "height": 98,
+                      "marginLeft": 29,
+                      "width": 98,
+                    }
+                  }
+                />
+                <TouchableOpacity
+                  activeOpacity={0.2}
+                >
+                  <Image
+                    source={
+                      Object {
+                        "testUri": "../../../packages/blocks/SocialMediaIntegration/assets/pencil.png",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 39,
+                        "marginTop": 88,
+                        "width": 39,
+                      }
+                    }
+                  />
+                </TouchableOpacity>
+                <View
+                  style={
+                    Object {
+                      "height": "100%",
+                      "justifyContent": "center",
+                      "width": "77%",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "justifyContent": "center",
+                      }
+                    }
+                  >
+                    Enter your account
+                  </Text>
+                  <TextInput
+                    allowFontScaling={true}
+                    keyboardType="email-address"
+                    onChangeText={[Function]}
+                    rejectResponderTermination={true}
+                    style={
+                      Object {
+                        "borderBottomWidth": 1,
+                        "height": "60%",
+                      }
+                    }
+                    testID="socialMediaInstagramAccountInput"
+                    underlineColorAndroid="transparent"
+                    value=""
+                  />
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 98,
+                    "width": "100%",
+                  }
+                }
+              >
+                <CheckBox
+                  isChecked={false}
+                  isIndeterminate={false}
+                  leftTextStyle={Object {}}
+                  onClick={[Function]}
+                  rightTextStyle={Object {}}
+                  style={
+                    Object {
+                      "marginLeft": 39,
+                      "marginRight": 20,
+                    }
+                  }
+                  testID="instagramcheckBox"
+                />
+                <View
+                  style={
+                    Object {
+                      "width": "75%",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "width": "100%",
+                      }
+                    }
+                  >
+                    SPHARA is requesting to do the following.
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                        "marginTop": 20,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "#cccccc",
+                          "borderRadius": 4,
+                          "height": 39,
+                          "justifyContent": "center",
+                          "marginRight": 29,
+                          "width": 39,
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          Object {
+                            "color": "#fff",
+                          }
+                        }
+                      >
+                        1
+                      </Text>
+                    </View>
+                    <Text>
+                      Access my basic Information.
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                        "marginTop": 5,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "#cccccc",
+                          "borderRadius": 4,
+                          "height": 39,
+                          "justifyContent": "center",
+                          "marginRight": 29,
+                          "width": 39,
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          Object {
+                            "color": "#fff",
+                          }
+                        }
+                      >
+                        2
+                      </Text>
+                    </View>
+                    <Text>
+                      Post alert message on my wall.
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                        "marginTop": 5,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "#cccccc",
+                          "borderRadius": 4,
+                          "height": 39,
+                          "justifyContent": "center",
+                          "marginRight": 29,
+                          "width": 39,
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          Object {
+                            "color": "#fff",
+                          }
+                        }
+                      >
+                        3
+                      </Text>
+                    </View>
+                    <Text>
+                      Access my profile Information.
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "height": 98,
+                    "justifyContent": "flex-end",
+                    "marginTop": 98,
+                    "width": "100%",
+                  }
+                }
+              >
+                <TouchableOpacity
+                  activeOpacity={0.2}
+                  onPress={[Function]}
+                  testID="instagramModalCancelButton"
+                >
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 17,
+                        "marginRight": 39,
+                      }
+                    }
+                  >
+                    CANCEL
+                  </Text>
+                </TouchableOpacity>
+                <TouchableOpacity
+                  activeOpacity={0.2}
+                  disabled={true}
+                  onPress={[Function]}
+                  testID="instagramModalContinueButton"
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "gray",
+                        "fontSize": 33,
+                        "marginRight": 39,
+                      }
+                    }
+                  >
+                    CONTINUE
+                  </Text>
+                </TouchableOpacity>
+              </View>
+            </View>
+          </View>
+        </Component>
+        <Component
+          hardwareAccelerated={false}
+          transparent={true}
+          visible={false}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "height": 1334,
+                "justifyContent": "center",
+                "width": 750,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "backgroundColor": "#fff",
+                  "justifyContent": "center",
+                  "width": 711,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#e3e3e3",
+                    "height": 98,
+                    "justifyContent": "center",
+                    "width": "100%",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "marginLeft": 39,
+                    }
+                  }
+                >
+                  Twitter Access
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "height": 128,
+                    "marginTop": 29,
+                    "width": "100%",
+                  }
+                }
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../packages/blocks/SocialMediaIntegration/assets/profile.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "borderRadius": 98,
+                      "height": 98,
+                      "marginLeft": 29,
+                      "width": 98,
+                    }
+                  }
+                />
+                <TouchableOpacity
+                  activeOpacity={0.2}
+                >
+                  <Image
+                    source={
+                      Object {
+                        "testUri": "../../../packages/blocks/SocialMediaIntegration/assets/pencil.png",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 39,
+                        "marginTop": 88,
+                        "width": 39,
+                      }
+                    }
+                  />
+                </TouchableOpacity>
+                <View
+                  style={
+                    Object {
+                      "height": "100%",
+                      "justifyContent": "center",
+                      "width": "77%",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "justifyContent": "center",
+                      }
+                    }
+                  >
+                    Enter your account
+                  </Text>
+                  <TextInput
+                    allowFontScaling={true}
+                    keyboardType="email-address"
+                    onChangeText={[Function]}
+                    rejectResponderTermination={true}
+                    style={
+                      Object {
+                        "borderBottomWidth": 1,
+                        "height": "60%",
+                      }
+                    }
+                    testID="socialMediaTwitterAccountInput"
+                    underlineColorAndroid="transparent"
+                    value=""
+                  />
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 98,
+                    "width": "100%",
+                  }
+                }
+              >
+                <CheckBox
+                  isChecked={false}
+                  isIndeterminate={false}
+                  leftTextStyle={Object {}}
+                  onClick={[Function]}
+                  rightTextStyle={Object {}}
+                  style={
+                    Object {
+                      "marginLeft": 39,
+                      "marginRight": 20,
+                    }
+                  }
+                  testID="twittercheckBox"
+                />
+                <View
+                  style={
+                    Object {
+                      "width": "75%",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "width": "100%",
+                      }
+                    }
+                  >
+                    SPHARA is requesting to do the following.
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                        "marginTop": 20,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "#cccccc",
+                          "borderRadius": 4,
+                          "height": 39,
+                          "justifyContent": "center",
+                          "marginRight": 29,
+                          "width": 39,
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          Object {
+                            "color": "#fff",
+                          }
+                        }
+                      >
+                        1
+                      </Text>
+                    </View>
+                    <Text>
+                      Access my basic Information.
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                        "marginTop": 5,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "#cccccc",
+                          "borderRadius": 4,
+                          "height": 39,
+                          "justifyContent": "center",
+                          "marginRight": 29,
+                          "width": 39,
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          Object {
+                            "color": "#fff",
+                          }
+                        }
+                      >
+                        2
+                      </Text>
+                    </View>
+                    <Text>
+                      Post alert message on my wall.
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                        "marginTop": 5,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "#cccccc",
+                          "borderRadius": 4,
+                          "height": 39,
+                          "justifyContent": "center",
+                          "marginRight": 29,
+                          "width": 39,
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          Object {
+                            "color": "#fff",
+                          }
+                        }
+                      >
+                        3
+                      </Text>
+                    </View>
+                    <Text>
+                      Access my profile Information.
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "height": 98,
+                    "justifyContent": "flex-end",
+                    "marginTop": 98,
+                    "width": "100%",
+                  }
+                }
+              >
+                <TouchableOpacity
+                  activeOpacity={0.2}
+                  onPress={[Function]}
+                  testID="twitterModalCancelButton"
+                >
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 17,
+                        "marginRight": 39,
+                      }
+                    }
+                  >
+                    CANCEL
+                  </Text>
+                </TouchableOpacity>
+                <TouchableOpacity
+                  activeOpacity={0.2}
+                  disabled={true}
+                  onPress={[Function]}
+                  testID="twitterModalContinueButton"
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "gray",
+                        "fontSize": 33,
+                        "marginRight": 39,
+                      }
+                    }
+                  >
+                    CONTINUE
+                  </Text>
+                </TouchableOpacity>
+              </View>
+            </View>
+          </View>
+        </Component>
+        <Component
+          hardwareAccelerated={false}
+          transparent={true}
+          visible={false}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "height": 1334,
+                "justifyContent": "center",
+                "width": 750,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "backgroundColor": "#fff",
+                  "justifyContent": "center",
+                  "width": 711,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#e3e3e3",
+                    "height": 98,
+                    "justifyContent": "center",
+                    "width": "100%",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "marginLeft": 39,
+                    }
+                  }
+                >
+                  Linkedin Access
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "height": 128,
+                    "marginTop": 29,
+                    "width": "100%",
+                  }
+                }
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../packages/blocks/SocialMediaIntegration/assets/profile.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "borderRadius": 98,
+                      "height": 98,
+                      "marginLeft": 29,
+                      "width": 98,
+                    }
+                  }
+                />
+                <TouchableOpacity
+                  activeOpacity={0.2}
+                >
+                  <Image
+                    source={
+                      Object {
+                        "testUri": "../../../packages/blocks/SocialMediaIntegration/assets/pencil.png",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 39,
+                        "marginTop": 88,
+                        "width": 39,
+                      }
+                    }
+                  />
+                </TouchableOpacity>
+                <View
+                  style={
+                    Object {
+                      "height": "100%",
+                      "justifyContent": "center",
+                      "width": "77%",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "justifyContent": "center",
+                      }
+                    }
+                  >
+                    Enter your account
+                  </Text>
+                  <TextInput
+                    allowFontScaling={true}
+                    keyboardType="email-address"
+                    onChangeText={[Function]}
+                    rejectResponderTermination={true}
+                    style={
+                      Object {
+                        "borderBottomWidth": 1,
+                        "height": "60%",
+                      }
+                    }
+                    testID="socialMediaLinkedInAccountInput"
+                    underlineColorAndroid="transparent"
+                    value=""
+                  />
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 98,
+                    "width": "100%",
+                  }
+                }
+              >
+                <CheckBox
+                  isChecked={false}
+                  isIndeterminate={false}
+                  leftTextStyle={Object {}}
+                  onClick={[Function]}
+                  rightTextStyle={Object {}}
+                  style={
+                    Object {
+                      "marginLeft": 39,
+                      "marginRight": 20,
+                    }
+                  }
+                  testID="linkedincheckBox"
+                />
+                <View
+                  style={
+                    Object {
+                      "width": "75%",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "width": "100%",
+                      }
+                    }
+                  >
+                    SPHARA is requesting to do the following.
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                        "marginTop": 20,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "#cccccc",
+                          "borderRadius": 4,
+                          "height": 39,
+                          "justifyContent": "center",
+                          "marginRight": 29,
+                          "width": 39,
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          Object {
+                            "color": "#fff",
+                          }
+                        }
+                      >
+                        1
+                      </Text>
+                    </View>
+                    <Text>
+                      Access my basic Information.
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                        "marginTop": 5,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "#cccccc",
+                          "borderRadius": 4,
+                          "height": 39,
+                          "justifyContent": "center",
+                          "marginRight": 29,
+                          "width": 39,
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          Object {
+                            "color": "#fff",
+                          }
+                        }
+                      >
+                        2
+                      </Text>
+                    </View>
+                    <Text>
+                      Post alert message on my wall.
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                        "marginTop": 5,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "#cccccc",
+                          "borderRadius": 4,
+                          "height": 39,
+                          "justifyContent": "center",
+                          "marginRight": 29,
+                          "width": 39,
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          Object {
+                            "color": "#fff",
+                          }
+                        }
+                      >
+                        3
+                      </Text>
+                    </View>
+                    <Text>
+                      Access my profile Information.
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "height": 98,
+                    "justifyContent": "flex-end",
+                    "marginTop": 98,
+                    "width": "100%",
+                  }
+                }
+              >
+                <TouchableOpacity
+                  activeOpacity={0.2}
+                  onPress={[Function]}
+                  testID="linkedinModalCancelButton"
+                >
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 17,
+                        "marginRight": 39,
+                      }
+                    }
+                  >
+                    CANCEL
+                  </Text>
+                </TouchableOpacity>
+                <TouchableOpacity
+                  activeOpacity={0.2}
+                  disabled={true}
+                  onPress={[Function]}
+                  testID="linkedInModalContinueButton"
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "gray",
+                        "fontSize": 33,
+                        "marginRight": 39,
+                      }
+                    }
+                  >
+                    CONTINUE
+                  </Text>
+                </TouchableOpacity>
+              </View>
+            </View>
+          </View>
+        </Component>
+        <Component
+          hardwareAccelerated={false}
+          transparent={true}
+          visible={false}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "height": 1334,
+                "justifyContent": "center",
+                "width": 750,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "height": 100,
+                  "justifyContent": "center",
+                  "width": 730,
+                }
+              }
+            >
+              <ActivityIndicator
+                animating={true}
+                color="#f07233"
+                hidesWhenStopped={true}
+                size="large"
+              />
+            </View>
+          </View>
+        </Component>
+      </ImageBackground>
+    </ImageBackground>
+  </View>
+</SafeAreaView>
+`;

@@ -1,0 +1,65 @@
+{
+  "id": "CustomiseSounds",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/CustomiseSounds",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CustomiseSounds"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CustomiseSounds": {
+        "file": "CustomiseSounds.tsx",
+        "extends": "CustomiseSoundsController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "CustomiseSoundsController",
+            "path": "./CustomiseSoundsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CustomiseSoundsController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CustomiseSounds"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CustomiseSoundsBlock": {
+        "file": "CustomiseSoundsBlock.tsx",
+        "extends": "CustomiseSoundsController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "CustomiseSoundsController",
+            "path": "./CustomiseSoundsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CustomiseSoundsController"
+          }
+        ]
+      }
+    }
+  }
+}

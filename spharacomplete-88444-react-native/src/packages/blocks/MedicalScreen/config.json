@@ -1,0 +1,36 @@
+{
+  "id": "VoiceActivation",
+  "version": "1.0.0",
+  "status": "release",
+  "path": "./packages/blocks/VoiceActivation",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "VoiceActivation"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "VoiceActivation": {
+        "file": "VoiceActivation.tsx",
+        "extends": "VoiceActivationController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "VoiceActivationController",
+            "path": "./VoiceActivationController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./VoiceActivationController"
+          }
+        ]
+      }
+    }
+  }
+}

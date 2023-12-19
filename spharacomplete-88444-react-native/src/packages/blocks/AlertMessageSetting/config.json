@@ -1,0 +1,39 @@
+{
+  "id": "AlertMessageSetting",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/AlertMessageSetting",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "AlertMessageSetting"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Login": {
+        "file": "AlertMessageSetting.tsx",
+        "extends": "AlertMessageSettingController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": []
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "AlertMessageSetting"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {}
+  }
+}

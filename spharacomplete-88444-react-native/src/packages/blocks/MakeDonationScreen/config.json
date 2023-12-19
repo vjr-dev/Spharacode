@@ -1,0 +1,40 @@
+{
+  "id": "MakeDonationScreen",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/MakeDonationScreen",
+  "assembler-adapters": [
+    "MakeDonationScreenAdapter"
+  ],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "MakeDonationScreen"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "MakeDonationScreen"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "MakeDonationScreen": {
+        "file": "MakeDonationScreen.tsx",
+        "extends": "MakeDonationScreenController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "MakeDonationScreenController",
+            "path": "./MakeDonationScreenController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./MakeDonationScreenController"
+          }
+        ]
+      }
+    }
+  }
+  
+}

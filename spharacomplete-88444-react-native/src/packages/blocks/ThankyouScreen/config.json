@@ -1,0 +1,40 @@
+{
+  "id": "Thankyou",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/ThankyouScreen",
+  "assembler-adapters": [
+    "ThankyouAdapter"
+  ],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Thankyou"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "Thankyou"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Thankyou": {
+        "file": "Thankyou.tsx",
+        "extends": "ThankyouController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ThankyouController",
+            "path": "./ThankyouController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ThankyouController"
+          }
+        ]
+      }
+    }
+  }
+  
+}

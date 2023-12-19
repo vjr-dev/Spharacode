@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="/Users/joe/boiler-plate/packages/blocks/location/__tests__/step-definitions/location.steps.tsx">
+        <testCase name="location User navigates to location" duration="600"/>
+    </file>
+</testExecutions>

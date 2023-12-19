@@ -1,0 +1,65 @@
+{
+  "id": "ConferenceCall",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/ConferenceCall",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ConferenceCall"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ConferenceCall": {
+        "file": "ConferenceCall.tsx",
+        "extends": "ConferenceCallController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ConferenceCallController",
+            "path": "./ConferenceCallController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ConferenceCallController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ConferenceCall"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ConferenceCallBlock": {
+        "file": "ConferenceCallBlock.tsx",
+        "extends": "ConferenceCallController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ConferenceCallController",
+            "path": "./ConferenceCallController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ConferenceCallController"
+          }
+        ]
+      }
+    }
+  }
+}

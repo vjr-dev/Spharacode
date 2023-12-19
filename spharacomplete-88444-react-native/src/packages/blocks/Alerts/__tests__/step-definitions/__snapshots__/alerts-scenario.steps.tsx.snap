@@ -1,0 +1,807 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Alerts User navigates to Alerts Screen 1`] = `
+<ImageBackground
+  source={
+    Object {
+      "testUri": "../../../packages/blocks/Alerts/assets/image_background-1.png",
+    }
+  }
+  style={
+    Object {
+      "flex": 1,
+      "height": 1334,
+      "width": 750,
+    }
+  }
+>
+  <ImageBackground
+    source={
+      Object {
+        "testUri": "../../../packages/blocks/Alerts/assets/image_background-2.png",
+      }
+    }
+    style={
+      Object {
+        "flex": 1,
+        "height": 1334,
+        "width": 750,
+      }
+    }
+  >
+    <SafeAreaView>
+      <ScrollViewMock
+        style={
+          Object {
+            "height": 1334,
+            "marginBottom": undefined,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "rgba(255,138,73,1)",
+              "flexDirection": "row",
+              "height": undefined,
+              "justifyContent": "space-between",
+              "width": 750,
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "height": "90%",
+                "justifyContent": "center",
+                "width": "15%",
+              }
+            }
+            testID="alertsBackButton"
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/Alerts/assets/image_back.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 15,
+                  "tintColor": "#404040",
+                  "width": 15,
+                }
+              }
+            />
+          </TouchableOpacity>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "height": "100%",
+                "justifyContent": "center",
+                "width": "70%",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#404040",
+                  "fontSize": undefined,
+                  "fontWeight": "700",
+                }
+              }
+            >
+              date
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "height": "100%",
+                "width": "15%",
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#404040",
+              "flexDirection": "row",
+              "height": 53.36,
+              "justifyContent": "space-around",
+              "marginTop": undefined,
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Array [
+                Object {
+                  "borderBottomColor": "rgba(207,185,155,1)",
+                  "borderBottomWidth": 2,
+                  "width": 135,
+                },
+                Object {
+                  "borderBottomColor": "rgba(207,185,155,1)",
+                },
+              ]
+            }
+            testID="alertsDetailsButton"
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "alignSelf": "center",
+                    "color": "rgb(91,91,92)",
+                    "fontSize": 17,
+                    "fontWeight": "600",
+                    "marginBottom": 7,
+                  },
+                  Object {
+                    "color": "rgba(207,185,155,1)",
+                  },
+                ]
+              }
+            >
+              Detail
+            </Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            activeOpacity={0.2}
+            style={
+              Array [
+                Object {
+                  "borderBottomColor": "rgba(207,185,155,1)",
+                  "borderBottomWidth": 2,
+                  "width": 135,
+                },
+                Object {
+                  "borderBottomColor": "#404040",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "alignSelf": "center",
+                    "color": "rgba(207,185,155,1)",
+                    "fontSize": 17,
+                    "fontWeight": "600",
+                    "marginBottom": 7,
+                  },
+                  Object {
+                    "color": "rgb(91,91,92)",
+                  },
+                ]
+              }
+            >
+              Chat
+            </Text>
+          </TouchableOpacity>
+        </View>
+        <View
+          style={
+            Object {
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "marginLeft": undefined,
+                "marginTop": undefined,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "rgb(255,255,255)",
+                  "fontSize": undefined,
+                  "fontWeight": "600",
+                }
+              }
+            >
+              Alert detail
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "justifyContent": "space-between",
+                "marginLeft": undefined,
+                "marginTop": undefined,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "width": "90%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "rgb(163,164,165)",
+                  }
+                }
+              >
+                Date :
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "alignSelf": "flex-end",
+                    "color": "rgb(163,164,165)",
+                    "marginRight": undefined,
+                  }
+                }
+              >
+                date
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "width": "90%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "rgb(163,164,165)",
+                    "marginTop": undefined,
+                  }
+                }
+              >
+                Time :
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "alignSelf": "flex-end",
+                    "color": "rgb(163,164,165)",
+                    "marginRight": undefined,
+                    "marginTop": undefined,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "width": "90%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "rgb(163,164,165)",
+                    "marginTop": undefined,
+                  }
+                }
+              >
+                Emergency called # : 
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "alignSelf": "flex-end",
+                      "color": "rgb(163,164,165)",
+                      "marginRight": undefined,
+                      "marginTop": undefined,
+                    },
+                    Object {
+                      "marginRight": undefined,
+                    },
+                  ]
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "width": "90%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "rgb(163,164,165)",
+                      "marginTop": undefined,
+                    },
+                    Object {
+                      "marginRight": undefined,
+                    },
+                  ]
+                }
+              >
+                Location :
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "rgb(163,164,165)",
+                      "marginRight": undefined,
+                      "marginTop": undefined,
+                    },
+                    Object {},
+                  ]
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "width": "90%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "rgb(163,164,165)",
+                    "marginTop": undefined,
+                  }
+                }
+              >
+                Status report:
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "alignSelf": "flex-end",
+                      "color": "rgb(163,164,165)",
+                      "marginRight": undefined,
+                      "marginTop": undefined,
+                    },
+                    Object {
+                      "marginRight": undefined,
+                    },
+                  ]
+                }
+              />
+            </View>
+          </View>
+        </View>
+      </ScrollViewMock>
+    </SafeAreaView>
+  </ImageBackground>
+</ImageBackground>
+`;
+
+exports[`Alerts User navigates to Alerts Screen 2`] = `
+<ImageBackground
+  source={
+    Object {
+      "testUri": "../../../packages/blocks/Alerts/assets/image_background-1.png",
+    }
+  }
+  style={
+    Object {
+      "flex": 1,
+      "height": 1334,
+      "width": 750,
+    }
+  }
+>
+  <ImageBackground
+    source={
+      Object {
+        "testUri": "../../../packages/blocks/Alerts/assets/image_background-2.png",
+      }
+    }
+    style={
+      Object {
+        "flex": 1,
+        "height": 1334,
+        "width": 750,
+      }
+    }
+  >
+    <SafeAreaView>
+      <ScrollViewMock
+        style={
+          Object {
+            "height": 1334,
+            "marginBottom": undefined,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "rgba(255,138,73,1)",
+              "flexDirection": "row",
+              "height": undefined,
+              "justifyContent": "space-between",
+              "width": 750,
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "height": "90%",
+                "justifyContent": "center",
+                "width": "15%",
+              }
+            }
+            testID="alertsBackButton"
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/Alerts/assets/image_back.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 15,
+                  "tintColor": "#404040",
+                  "width": 15,
+                }
+              }
+            />
+          </TouchableOpacity>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "height": "100%",
+                "justifyContent": "center",
+                "width": "70%",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#404040",
+                  "fontSize": undefined,
+                  "fontWeight": "700",
+                }
+              }
+            >
+              date
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "height": "100%",
+                "width": "15%",
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#404040",
+              "flexDirection": "row",
+              "height": 53.36,
+              "justifyContent": "space-around",
+              "marginTop": undefined,
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Array [
+                Object {
+                  "borderBottomColor": "rgba(207,185,155,1)",
+                  "borderBottomWidth": 2,
+                  "width": 135,
+                },
+                Object {
+                  "borderBottomColor": "rgba(207,185,155,1)",
+                },
+              ]
+            }
+            testID="alertsDetailsButton"
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "alignSelf": "center",
+                    "color": "rgb(91,91,92)",
+                    "fontSize": 17,
+                    "fontWeight": "600",
+                    "marginBottom": 7,
+                  },
+                  Object {
+                    "color": "rgba(207,185,155,1)",
+                  },
+                ]
+              }
+            >
+              Detail
+            </Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            activeOpacity={0.2}
+            style={
+              Array [
+                Object {
+                  "borderBottomColor": "rgba(207,185,155,1)",
+                  "borderBottomWidth": 2,
+                  "width": 135,
+                },
+                Object {
+                  "borderBottomColor": "#404040",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "alignSelf": "center",
+                    "color": "rgba(207,185,155,1)",
+                    "fontSize": 17,
+                    "fontWeight": "600",
+                    "marginBottom": 7,
+                  },
+                  Object {
+                    "color": "rgb(91,91,92)",
+                  },
+                ]
+              }
+            >
+              Chat
+            </Text>
+          </TouchableOpacity>
+        </View>
+        <View
+          style={
+            Object {
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "marginLeft": undefined,
+                "marginTop": undefined,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "rgb(255,255,255)",
+                  "fontSize": undefined,
+                  "fontWeight": "600",
+                }
+              }
+            >
+              Alert detail
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "justifyContent": "space-between",
+                "marginLeft": undefined,
+                "marginTop": undefined,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "width": "90%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "rgb(163,164,165)",
+                  }
+                }
+              >
+                Date :
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "alignSelf": "flex-end",
+                    "color": "rgb(163,164,165)",
+                    "marginRight": undefined,
+                  }
+                }
+              >
+                date
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "width": "90%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "rgb(163,164,165)",
+                    "marginTop": undefined,
+                  }
+                }
+              >
+                Time :
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "alignSelf": "flex-end",
+                    "color": "rgb(163,164,165)",
+                    "marginRight": undefined,
+                    "marginTop": undefined,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "width": "90%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "rgb(163,164,165)",
+                    "marginTop": undefined,
+                  }
+                }
+              >
+                Emergency called # : 
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "alignSelf": "flex-end",
+                      "color": "rgb(163,164,165)",
+                      "marginRight": undefined,
+                      "marginTop": undefined,
+                    },
+                    Object {
+                      "marginRight": undefined,
+                    },
+                  ]
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "width": "90%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "rgb(163,164,165)",
+                      "marginTop": undefined,
+                    },
+                    Object {
+                      "marginRight": undefined,
+                    },
+                  ]
+                }
+              >
+                Location :
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "rgb(163,164,165)",
+                      "marginRight": undefined,
+                      "marginTop": undefined,
+                    },
+                    Object {},
+                  ]
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "width": "90%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "rgb(163,164,165)",
+                    "marginTop": undefined,
+                  }
+                }
+              >
+                Status report:
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "alignSelf": "flex-end",
+                      "color": "rgb(163,164,165)",
+                      "marginRight": undefined,
+                      "marginTop": undefined,
+                    },
+                    Object {
+                      "marginRight": undefined,
+                    },
+                  ]
+                }
+              />
+            </View>
+          </View>
+        </View>
+      </ScrollViewMock>
+    </SafeAreaView>
+  </ImageBackground>
+</ImageBackground>
+`;

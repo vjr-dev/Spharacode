@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`New Chat User navigates to New Chat 1`] = `
+<ForwardRef(SafeAreaView)
+  style={
+    Object {
+      "backgroundColor": "#454545",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "width": 750,
+      }
+    }
+  >
+    <ImageBackground
+      source={
+        Object {
+          "testUri": "../../../packages/blocks/ChatInSocial/assets/image_background-1.png",
+        }
+      }
+      style={
+        Object {
+          "flex": 1,
+          "height": 1334,
+          "width": 750,
+        }
+      }
+    >
+      <ImageBackground
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/ChatInSocial/assets/image_background-2.png",
+          }
+        }
+        style={
+          Object {
+            "flex": 1,
+            "height": 1334,
+            "width": 750,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "padding": 20,
+            }
+          }
+        >
+          <ForwardRef
+            onPress={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+                "width": 10,
+              }
+            }
+            testID="newChatButton"
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/ChatInSocial/assets/image_back.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 18,
+                  "tintColor": "rgb(255,255,255)",
+                  "width": 18,
+                }
+              }
+            />
+          </ForwardRef>
+          <Text
+            style={
+              Object {
+                "color": "white",
+                "fontSize": 20,
+                "textAlign": "center",
+                "width": "90%",
+              }
+            }
+          >
+            New Chat
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignSelf": "center",
+              "flexDirection": "row",
+              "height": 38,
+              "marginTop": 10,
+              "width": 725,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#515151",
+                "borderRadius": 100,
+                "flexDirection": "row",
+                "width": "100%",
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/ChatInSocial/assets/search.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 20,
+                  "marginLeft": 10,
+                  "marginRight": 5,
+                  "tintColor": "#cdcdcd",
+                  "width": 20,
+                }
+              }
+            />
+            <Component
+              allowFontScaling={true}
+              onChangeText={[Function]}
+              placeholder="Search"
+              placeholderTextColor="white"
+              rejectResponderTermination={true}
+              style={
+                Object {
+                  "color": "white",
+                  "paddingLeft": 5,
+                  "width": "100%",
+                }
+              }
+              testID="searchInput"
+              underlineColorAndroid="transparent"
+            />
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignSelf": "center",
+              "flex": 1,
+              "marginTop": 15,
+              "width": 725,
+            }
+          }
+        >
+          <FlatList
+            contentContainerStyle={
+              Object {
+                "bottom": 13,
+              }
+            }
+            data={Array []}
+            disableVirtualization={false}
+            horizontal={false}
+            initialNumToRender={10}
+            keyExtractor={[Function]}
+            maxToRenderPerBatch={10}
+            numColumns={1}
+            onEndReachedThreshold={2}
+            removeClippedSubviews={true}
+            renderItem={[Function]}
+            scrollEventThrottle={50}
+            showsVerticalScrollIndicator={false}
+            testID="contactList"
+            updateCellsBatchingPeriod={50}
+            windowSize={21}
+          />
+        </View>
+      </ImageBackground>
+    </ImageBackground>
+  </View>
+</ForwardRef(SafeAreaView)>
+`;

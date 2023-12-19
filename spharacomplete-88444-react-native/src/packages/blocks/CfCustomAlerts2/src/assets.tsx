@@ -1,0 +1,12 @@
+export const imgPasswordVisible = require("../assets/ic_password_visible.png");
+export const imgPasswordInVisible = require("../assets/ic_password_invisible.png");
+export const user = require("../assets/user.png");
+export const back1 = require("../assets/image_background-1.png");
+export const back2 = require("../assets/image_background-2.png");
+export const image_back = require("../assets/image_back.png");
+export const google_map = require("../assets/google_map.png");
+export const police = require("../assets/police.png");
+export const alert_icon = require("../assets/alert_icon.png");
+export const chat = require("../assets/chat.png");
+export const call = require("../assets/call.png");
+export const share = require("../assets/share.png");

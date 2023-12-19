@@ -1,0 +1,13 @@
+export const home = require("./assets/home.png");
+export const location = require("./assets/location.png");
+export const timer= require("./assets/timer.png");
+export const social = require("./assets/social.png");
+export const channel = require("./assets/channel.png");
+export const chat = require("./assets/chat.png");
+export const meeting = require("./assets/meeting.png");
+export const more = require("./assets/more.png");
+export const alert = require("./assets/alert.png");
+export const donation = require("./assets/donation.png");
+export const profile = require("./assets/profile.png");
+export const setting = require("./assets/setting.png");
+export const help = require("./assets/help.png");

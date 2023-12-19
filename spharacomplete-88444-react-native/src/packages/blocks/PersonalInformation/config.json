@@ -1,0 +1,36 @@
+{
+  "id": "PersonalInformation",
+  "version": "1.0.0",
+  "status": "release",
+  "path": "./packages/blocks/PersonalInformation",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "PersonalInformation"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "PersonalInformation": {
+        "file": "PersonalInformation.tsx",
+        "extends": "PersonalInformationController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "PersonalInformationController",
+            "path": "./PersonalInformationController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./PersonalInformationController"
+          }
+        ]
+      }
+    }
+  }
+}

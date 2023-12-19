@@ -1,0 +1,40 @@
+{
+  "id": "FireNotification",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/FireNotification",
+  "assembler-adapters": [
+    "FireNotificationAdapter"
+  ],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "FireNotification"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "FireNotification"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "FireNotification": {
+        "file": "FireNotification.tsx",
+        "extends": "FireNotificationController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "FireNotificationController",
+            "path": "./FireNotificationController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./FireNotificationController"
+          }
+        ]
+      }
+    }
+  }
+  
+}

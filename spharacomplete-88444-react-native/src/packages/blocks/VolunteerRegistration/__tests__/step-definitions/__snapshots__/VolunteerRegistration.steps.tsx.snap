@@ -1,0 +1,928 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VolunteerRegistration User navigates to Step2 1`] = `
+<SafeAreaView
+  style={
+    Object {
+      "backgroundColor": "#454545",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "width": 750,
+      }
+    }
+  >
+    <StatusBar
+      animated={true}
+      backgroundColor="#454545"
+      barStyle="light-content"
+      showHideTransition="slide"
+    />
+    <ImageBackground
+      source={
+        Object {
+          "testUri": "../../../packages/blocks/VolunteerRegistration/assets/image_background-1.png",
+        }
+      }
+      style={
+        Object {
+          "height": 1334,
+          "width": 750,
+        }
+      }
+    >
+      <ImageBackground
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/VolunteerRegistration/assets/image_background-2.png",
+          }
+        }
+        style={
+          Object {
+            "alignItems": "center",
+            "height": 1334,
+            "width": 750,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "height": 60,
+              "justifyContent": "space-between",
+              "width": 750,
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Object {
+                "marginLeft": 20,
+                "marginTop": 22,
+              }
+            }
+            testID="imageBackBtn"
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/VolunteerRegistration/assets/image_back.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 15,
+                  "tintColor": "#f07233",
+                  "width": 15,
+                }
+              }
+            />
+          </TouchableOpacity>
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "rgb(255,255,255)",
+              "fontSize": 20,
+              "marginTop": 50,
+              "width": 730,
+            }
+          }
+        >
+          Step 2-Enter Confirmation Number
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#a1a1a1",
+              "fontSize": 15,
+              "marginTop": 10,
+              "width": 730,
+            }
+          }
+        >
+          Please enter confirmation number which you received from ypur local first-responder department.
+        </Text>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "backgroundColor": "#515151",
+              "borderRadius": 50,
+              "flexDirection": "row",
+              "height": 50,
+              "marginTop": 50,
+              "width": 730,
+            }
+          }
+        >
+          <TextInput
+            allowFontScaling={true}
+            keyboardType="number-pad"
+            maxLength={4}
+            onChangeText={[Function]}
+            placeholder="4-Digit Code"
+            placeholderTextColor="#a1a1a1"
+            rejectResponderTermination={true}
+            secureTextEntry={true}
+            style={
+              Object {
+                "color": "#a1a1a1",
+                "marginLeft": 10,
+                "width": "100%",
+              }
+            }
+            testID="Otpcode"
+            underlineColorAndroid="transparent"
+            value={0}
+          />
+        </View>
+        <Component
+          hardwareAccelerated={false}
+          transparent={true}
+          visible={true}
+        >
+          <View
+            style={
+              Object {
+                "alignSelf": "center",
+                "backgroundColor": "#fff",
+                "borderRadius": 15,
+                "marginTop": 333.5,
+                "width": 710,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "height": 50,
+                  "justifyContent": "center",
+                  "marginTop": 20,
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../packages/blocks/VolunteerRegistration/assets/tick.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 30,
+                    "tintColor": "#f07233",
+                    "width": 30,
+                  }
+                }
+              />
+            </View>
+            <Text
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                  "margin": 10,
+                }
+              }
+            >
+              Verification Done!
+            </Text>
+            <Text
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "fontSize": 15,
+                  "marginHorizontal": 10,
+                  "marginTop": 10,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Congratulation,You have become SPHARA verified volunteer
+            </Text>
+            <Text
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "color": "#f07233",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                  "marginHorizontal": 10,
+                  "marginVertical": 20,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#808080",
+                  "height": 1,
+                  "marginTop": 20,
+                  "width": "100%",
+                }
+              }
+            />
+            <TouchableOpacity
+              activeOpacity={0.2}
+              onPress={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "height": 50,
+                  "justifyContent": "center",
+                  "width": "100%",
+                }
+              }
+              testID="modelContinue"
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "fontWeight": "600",
+                  }
+                }
+              >
+                CONTINUE
+              </Text>
+            </TouchableOpacity>
+          </View>
+        </Component>
+        <Component
+          hardwareAccelerated={false}
+          transparent={true}
+          visible={false}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "height": 1334,
+                "justifyContent": "center",
+                "width": 750,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "height": 100,
+                  "justifyContent": "center",
+                  "width": 730,
+                }
+              }
+            >
+              <ActivityIndicator
+                animating={true}
+                color="#f07233"
+                hidesWhenStopped={true}
+                size="large"
+              />
+            </View>
+          </View>
+        </Component>
+      </ImageBackground>
+    </ImageBackground>
+  </View>
+</SafeAreaView>
+`;
+
+exports[`VolunteerRegistration User navigates to Step2 2`] = `
+<SafeAreaView
+  style={
+    Object {
+      "backgroundColor": "#454545",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "width": 750,
+      }
+    }
+  >
+    <StatusBar
+      animated={true}
+      backgroundColor="#454545"
+      barStyle="light-content"
+      showHideTransition="slide"
+    />
+    <ImageBackground
+      source={
+        Object {
+          "testUri": "../../../packages/blocks/VolunteerRegistration/assets/image_background-1.png",
+        }
+      }
+      style={
+        Object {
+          "height": 1334,
+          "width": 750,
+        }
+      }
+    >
+      <ImageBackground
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/VolunteerRegistration/assets/image_background-2.png",
+          }
+        }
+        style={
+          Object {
+            "alignItems": "center",
+            "height": 1334,
+            "width": 750,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "height": 60,
+              "justifyContent": "space-between",
+              "width": 750,
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Object {
+                "marginLeft": 20,
+                "marginTop": 22,
+              }
+            }
+            testID="imageBackBtn"
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/VolunteerRegistration/assets/image_back.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 15,
+                  "tintColor": "#f07233",
+                  "width": 15,
+                }
+              }
+            />
+          </TouchableOpacity>
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "rgb(255,255,255)",
+              "fontSize": 20,
+              "marginTop": 50,
+              "width": 730,
+            }
+          }
+        >
+          Step 2-Enter Confirmation Number
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#a1a1a1",
+              "fontSize": 15,
+              "marginTop": 10,
+              "width": 730,
+            }
+          }
+        >
+          Please enter confirmation number which you received from ypur local first-responder department.
+        </Text>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "backgroundColor": "#515151",
+              "borderRadius": 50,
+              "flexDirection": "row",
+              "height": 50,
+              "marginTop": 50,
+              "width": 730,
+            }
+          }
+        >
+          <TextInput
+            allowFontScaling={true}
+            keyboardType="number-pad"
+            maxLength={4}
+            onChangeText={[Function]}
+            placeholder="4-Digit Code"
+            placeholderTextColor="#a1a1a1"
+            rejectResponderTermination={true}
+            secureTextEntry={true}
+            style={
+              Object {
+                "color": "#a1a1a1",
+                "marginLeft": 10,
+                "width": "100%",
+              }
+            }
+            testID="Otpcode"
+            underlineColorAndroid="transparent"
+            value={4}
+          />
+        </View>
+        <Component
+          hardwareAccelerated={false}
+          transparent={true}
+          visible={true}
+        >
+          <View
+            style={
+              Object {
+                "alignSelf": "center",
+                "backgroundColor": "#fff",
+                "borderRadius": 15,
+                "marginTop": 333.5,
+                "width": 710,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "height": 50,
+                  "justifyContent": "center",
+                  "marginTop": 20,
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../packages/blocks/VolunteerRegistration/assets/tick.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 30,
+                    "tintColor": "#f07233",
+                    "width": 30,
+                  }
+                }
+              />
+            </View>
+            <Text
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                  "margin": 10,
+                }
+              }
+            >
+              Verification Done!
+            </Text>
+            <Text
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "fontSize": 15,
+                  "marginHorizontal": 10,
+                  "marginTop": 10,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Congratulation,You have become SPHARA verified volunteer
+            </Text>
+            <Text
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "color": "#f07233",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                  "marginHorizontal": 10,
+                  "marginVertical": 20,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#808080",
+                  "height": 1,
+                  "marginTop": 20,
+                  "width": "100%",
+                }
+              }
+            />
+            <TouchableOpacity
+              activeOpacity={0.2}
+              onPress={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "height": 50,
+                  "justifyContent": "center",
+                  "width": "100%",
+                }
+              }
+              testID="modelContinue"
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "fontWeight": "600",
+                  }
+                }
+              >
+                CONTINUE
+              </Text>
+            </TouchableOpacity>
+          </View>
+        </Component>
+        <Component
+          hardwareAccelerated={false}
+          transparent={true}
+          visible={false}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "height": 1334,
+                "justifyContent": "center",
+                "width": 750,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "height": 100,
+                  "justifyContent": "center",
+                  "width": 730,
+                }
+              }
+            >
+              <ActivityIndicator
+                animating={true}
+                color="#f07233"
+                hidesWhenStopped={true}
+                size="large"
+              />
+            </View>
+          </View>
+        </Component>
+      </ImageBackground>
+    </ImageBackground>
+  </View>
+</SafeAreaView>
+`;
+
+exports[`VolunteerRegistration User navigates to VolunteerRegistration 1`] = `
+<SafeAreaView
+  style={
+    Object {
+      "backgroundColor": "#454545",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "width": 750,
+      }
+    }
+  >
+    <StatusBar
+      animated={true}
+      backgroundColor="#454545"
+      barStyle="light-content"
+      showHideTransition="slide"
+    />
+    <ImageBackground
+      source={
+        Object {
+          "testUri": "../../../packages/blocks/VolunteerRegistration/assets/image_background-1.png",
+        }
+      }
+      style={
+        Object {
+          "height": 1334,
+          "width": 750,
+        }
+      }
+    >
+      <ImageBackground
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/VolunteerRegistration/assets/image_background-2.png",
+          }
+        }
+        style={
+          Object {
+            "alignItems": "center",
+            "height": 1334,
+            "width": 750,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "height": 60,
+              "justifyContent": "center",
+              "width": 750,
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Object {
+                "marginLeft": 20,
+              }
+            }
+            testID="goBackBtn"
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/VolunteerRegistration/assets/image_back.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 15,
+                  "tintColor": "#f07233",
+                  "width": 15,
+                }
+              }
+            />
+          </TouchableOpacity>
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "rgb(255,255,255)",
+              "fontSize": 20,
+              "marginTop": 50,
+              "width": 730,
+            }
+          }
+        >
+          Your Volunteering Profile.
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#a1a1a1",
+              "fontSize": 16,
+              "marginTop": 10,
+              "width": 730,
+            }
+          }
+        >
+          Set your volunteering profile type and ensure your
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#a1a1a1",
+              "fontSize": 16,
+              "marginTop": 5,
+              "width": 730,
+            }
+          }
+        >
+          help to nearby victims by getting alerts.
+        </Text>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "backgroundColor": "#404040",
+              "flexDirection": "row",
+              "height": 65,
+              "marginTop": 40,
+              "width": 750,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "rgb(255,255,255)",
+                "fontSize": 16,
+                "marginLeft": 20,
+                "width": "77%",
+              }
+            }
+          >
+            Intrested in volunteering?
+          </Text>
+          <Switch
+            ios_backgroundColor="#000"
+            onValueChange={[Function]}
+            style={
+              Object {
+                "transform": Array [
+                  Object {
+                    "scaleX": 0.9,
+                  },
+                  Object {
+                    "scaleY": 0.9,
+                  },
+                ],
+              }
+            }
+            testID="switch11Value"
+            thumbColor="rgb(255,255,255)"
+            trackColor={
+              Object {
+                "false": "rgb(0,0,0)",
+                "true": "rgba(255,138,73,1)",
+              }
+            }
+            value={false}
+          />
+        </View>
+        <Component
+          hardwareAccelerated={false}
+          testID="modalOpen"
+          transparent={true}
+          visible={false}
+        >
+          <View
+            style={
+              Object {
+                "alignSelf": "center",
+                "backgroundColor": "#fff",
+                "borderRadius": 15,
+                "marginTop": 333.5,
+                "width": 710,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "height": 50,
+                  "justifyContent": "center",
+                  "marginTop": 20,
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../packages/blocks/VolunteerRegistration/assets/tick.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 30,
+                    "tintColor": "#f07233",
+                    "width": 30,
+                  }
+                }
+              />
+            </View>
+            <Text
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                  "margin": 10,
+                }
+              }
+            >
+              Verification Done!
+            </Text>
+            <Text
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "fontSize": 15,
+                  "marginHorizontal": 10,
+                  "marginTop": 10,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Congratulation,You have become SPHARA verified volunteer
+            </Text>
+            <Text
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "color": "#f07233",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                  "marginHorizontal": 10,
+                  "marginVertical": 20,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#808080",
+                  "height": 1,
+                  "marginTop": 20,
+                  "width": "100%",
+                }
+              }
+            />
+            <TouchableOpacity
+              activeOpacity={0.2}
+              onPress={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "height": 50,
+                  "justifyContent": "center",
+                  "width": "100%",
+                }
+              }
+              testID="startModelID"
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "fontWeight": "600",
+                  }
+                }
+              >
+                CONTINUE
+              </Text>
+            </TouchableOpacity>
+          </View>
+        </Component>
+        <Component
+          hardwareAccelerated={false}
+          transparent={true}
+          visible={false}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "height": 1334,
+                "justifyContent": "center",
+                "width": 750,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "height": 100,
+                  "justifyContent": "center",
+                  "width": 730,
+                }
+              }
+            >
+              <ActivityIndicator
+                animating={true}
+                color="#f07233"
+                hidesWhenStopped={true}
+                size="large"
+              />
+            </View>
+          </View>
+        </Component>
+      </ImageBackground>
+    </ImageBackground>
+  </View>
+</SafeAreaView>
+`;

@@ -1,0 +1,65 @@
+{
+  "id": "GroupVideoCall2",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/GroupVideoCall2",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "GroupVideoCall2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "GroupVideoCall2": {
+        "file": "GroupVideoCall2.tsx",
+        "extends": "GroupVideoCall2Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "GroupVideoCall2Controller",
+            "path": "./GroupVideoCall2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./GroupVideoCall2Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "GroupVideoCall2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "GroupVideoCall2Block": {
+        "file": "GroupVideoCall2Block.tsx",
+        "extends": "GroupVideoCall2Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "GroupVideoCall2Controller",
+            "path": "./GroupVideoCall2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./GroupVideoCall2Controller"
+          }
+        ]
+      }
+    }
+  }
+}

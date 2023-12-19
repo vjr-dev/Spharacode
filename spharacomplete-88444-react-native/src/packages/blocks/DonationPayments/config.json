@@ -1,0 +1,65 @@
+{
+  "id": "DonationPayments",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/DonationPayments",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "DonationPayments"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "DonationPayments": {
+        "file": "DonationPayments.tsx",
+        "extends": "DonationPaymentsController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "DonationPaymentsController",
+            "path": "./DonationPaymentsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./DonationPaymentsController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "DonationPayments"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "DonationPaymentsBlock": {
+        "file": "DonationPaymentsBlock.tsx",
+        "extends": "DonationPaymentsController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "DonationPaymentsController",
+            "path": "./DonationPaymentsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./DonationPaymentsController"
+          }
+        ]
+      }
+    }
+  }
+}

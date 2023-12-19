@@ -1,0 +1,40 @@
+{
+  "id": "VolunteerRegistration",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/VolunteerRegistration",
+  "assembler-adapters": [
+    "VolunteerRegistrationAdapter"
+  ],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "VolunteerRegistration"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "VolunteerRegistration"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "VolunteerRegistration": {
+        "file": "VolunteerRegistration.tsx",
+        "extends": "VolunteerRegistrationController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "VolunteerRegistrationController",
+            "path": "./VolunteerRegistrationController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./VolunteerRegistrationController"
+          }
+        ]
+      }
+    }
+  }
+  
+}

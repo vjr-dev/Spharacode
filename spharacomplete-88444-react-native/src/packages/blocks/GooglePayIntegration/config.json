@@ -1,0 +1,65 @@
+{
+  "id": "GooglePayIntegration",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/GooglePayIntegration",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "GooglePayIntegration"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "GooglePayIntegration": {
+        "file": "GooglePayIntegration.tsx",
+        "extends": "GooglePayIntegrationController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "GooglePayIntegrationController",
+            "path": "./GooglePayIntegrationController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./GooglePayIntegrationController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "GooglePayIntegration"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "GooglePayIntegrationBlock": {
+        "file": "GooglePayIntegrationBlock.tsx",
+        "extends": "GooglePayIntegrationController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "GooglePayIntegrationController",
+            "path": "./GooglePayIntegrationController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./GooglePayIntegrationController"
+          }
+        ]
+      }
+    }
+  }
+}

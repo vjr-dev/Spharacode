@@ -1,0 +1,251 @@
+// Customizable Area Start
+import { Dimensions, Platform, StyleSheet } from "react-native";
+import { RFPercentage, RFValue } from "react-native-responsive-fontsize";
+import { COLORS } from "../../../framework/src/Globals";
+const sh = Dimensions.get("window").height;
+const sw = Dimensions.get("window").width;
+
+export const styles = StyleSheet.create({
+  mainView: {
+    height: sh,
+    width: sw,
+    flex: 1,
+  },
+  header_view: {
+    height: 60,
+    width: sw,
+    justifyContent: "space-between",
+    alignItems: "center",
+    // borderColor: 'white',
+    // borderWidth: 1,
+    flexDirection: "row",
+  },
+  header_txt: {
+    marginRight: RFPercentage(11),
+    color: "white",
+    fontWeight: "700",
+    fontSize: RFValue(16),
+  },
+  save_txt: {
+    marginRight: RFValue(27),
+    fontSize: RFValue(13),
+    fontWeight: "bold",
+    color: COLORS.darkorange,
+  },
+  img_view: {
+    justifyContent: "center",
+    alignItems: "center",
+    marginTop: RFValue(10),
+    // height: RFValue(65),
+    // width: RFValue(65),
+    // borderRadius: 50,
+    // borderColor:'white',
+    // borderWidth:1
+  },
+  img: {
+    height: RFValue(65),
+    width: RFValue(65),
+    borderRadius: 50,
+    borderColor: "white",
+    borderWidth: 1,
+  },
+  imageback_1: {
+    height: RFValue(55),
+    // width: RFPercentage(20),
+    width: "47%",
+    marginVertical: RFPercentage(10),
+    // alignItems: "center",
+    //flexDirection: "row",
+    backgroundColor: "#515151",
+    borderRadius: 50,
+    // justifyContent: 'space-between',
+    // marginRight: RFValue(16)
+  },
+  imageback_2: {
+    height: RFValue(55),
+    // width: RFPercentage(20),
+    marginVertical: RFPercentage(10),
+    width: "47%",
+    // alignItems: "center",
+    //flexDirection: "row",
+    backgroundColor: "#515151",
+    borderRadius: 50,
+    // justifyContent: 'space-between',
+    //marginLeft:RFValue(16)
+  },
+  imageback_3: {
+    height: RFValue(55),
+    // width: RFPercentage(43),
+    width: "100%",
+    backgroundColor: "#515151",
+    borderRadius: 50,
+    // marginLeft: RFValue(25),
+    marginTop: -10,
+    alignSelf: "center",
+  },
+  imageback_4: {
+    height: RFValue(55),
+    // width: RFPercentage(43),
+    width: "100%",
+    backgroundColor: "#515151",
+    borderRadius: 50,
+    // marginLeft: RFValue(25),
+    marginTop: RFValue(9),
+    alignSelf: "center",
+  },
+  imageback_5: {
+    height: RFValue(55),
+    // width: RFPercentage(43),
+    width: "100%",
+    backgroundColor: "#515151",
+    borderRadius: 50,
+    // marginLeft: RFValue(25),
+    marginTop: RFValue(9),
+    alignSelf: "center",
+  },
+  txt_input_view_main: {
+    flexDirection: "row",
+    // borderWidth: 1,
+    // borderColor: 'white',
+    height: RFPercentage(15),
+    marginTop: RFValue(25),
+    justifyContent: "space-between",
+    alignItems: "center",
+  },
+  txt_input_view_main2: {
+    flexDirection: "row",
+    // borderWidth: 1,
+    // borderColor: 'white',
+    height: RFPercentage(14),
+    marginTop: -12,
+    justifyContent: "space-between",
+    alignItems: "center",
+  },
+  mainView1: {
+    // marginBottom: RFPercentage(10),
+    paddingHorizontal: RFPercentage(4),
+  },
+  PlaceholderView: {
+    position: "absolute",
+    top: RFPercentage(0.05),
+    backgroundColor: COLORS.headerbackground,
+    zIndex: 1,
+    paddingHorizontal: RFPercentage(0.5),
+    left: RFPercentage(5),
+  },
+  textcolor: {
+    color: "grey",
+    fontSize: RFValue(11),
+  },
+  textField: {
+    paddingHorizontal: RFPercentage(1),
+    paddingVertical: RFPercentage(1.7),
+    borderWidth: 0.5,
+    textAlignVertical:'top',
+    borderColor: "grey",
+    borderRadius: RFValue(3),
+    fontSize: RFPercentage(2),
+    color: COLORS.white,
+    marginTop: RFValue(8),
+  },
+  settings_txt: {
+    alignSelf: "center",
+    paddingTop: 10,
+    // marginTop:RFValue(10),
+    fontWeight: "500",
+    color: "#cf8f67",
+  },
+
+  
+  backButton: {
+    marginLeft: RFValue(5),
+    justifyContent: "center",
+    alignItems: "center",
+    // backgroundColor:"red"
+  },
+  bottomView: {
+    paddingHorizontal: RFPercentage(4),
+    marginTop: 20,
+  },
+  bottomContent: {
+    backgroundColor: "rgba(60,60,60,1)",
+    marginBottom: 20,
+    borderRadius: 12,
+    paddingHorizontal: RFPercentage(1),
+  },
+  bottom_text1: {
+    color: "rgba(117,117,117,1)",
+    paddingStart: RFValue(15),
+    paddingTop: RFValue(5),
+    paddingBottom: RFValue(15),
+  },
+  label_txt: {
+    marginLeft: RFValue(15),
+    marginTop: RFValue(9),
+    color: COLORS.infoGray,
+    fontSize: RFValue(12),
+    fontWeight: "100",
+  },
+  dropDownButton: {
+    marginLeft: RFValue(15),
+    alignSelf: "flex-start",
+    width: "0%",
+    height: "0%",
+    // width: "100%",
+    // height: "100%",
+  },
+  dropDownButton2: {
+    marginLeft: RFValue(150),
+    alignSelf: "flex-start",
+    width: "0%",
+    height: "0%",
+    // width: "100%",
+    // height: "100%",
+  },
+  selectedText: {
+    color: COLORS.white,
+    fontSize: RFValue(15),
+    fontWeight: "600",
+  },
+  dropDownIcon: {
+    alignSelf: "flex-end",
+    right: 15,
+    top: 3,
+    position: "absolute",
+    zIndex: 1,
+  },
+  countryButton: {
+    // width: 150,
+    // height: 20,
+    width: 0,
+    height: 0,
+    // backgroundColor:"red",
+    alignSelf: "flex-start",
+  },
+  locationIcon: {
+    width: 18,
+    alignSelf: "flex-end",
+    marginTop: Platform.OS == "ios" ? RFValue(15) : RFValue(10),
+    marginRight: RFValue(33),
+    justifyContent: "center",
+    alignItems: "center",
+    height: 18,
+    borderWidth: 1.5,
+    borderColor: "#ceb28c",
+    borderRadius: 9,
+  },
+  locationText: {
+    paddingStart: Platform.OS == "ios" ? RFValue(0) : RFValue(20),
+    color: "#ceb28c",
+    fontWeight: "600",
+    width: Platform.OS == "android" ? RFValue(140) : RFValue(100),
+    right: Platform.OS == "android" ? RFValue(10) : RFValue(0),
+  },
+  countryModal: {
+    width: RFValue(300),
+    marginLeft: 10,
+    
+  },
+  
+});
+// Customizable Area End

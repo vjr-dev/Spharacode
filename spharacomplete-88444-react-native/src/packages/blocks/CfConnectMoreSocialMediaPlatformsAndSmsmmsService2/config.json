@@ -1,0 +1,65 @@
+{
+  "id": "CfConnectMoreSocialMediaPlatformsAndSmsmmsService2",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/CfConnectMoreSocialMediaPlatformsAndSmsmmsService2",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CfConnectMoreSocialMediaPlatformsAndSmsmmsService2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CfConnectMoreSocialMediaPlatformsAndSmsmmsService2": {
+        "file": "CfConnectMoreSocialMediaPlatformsAndSmsmmsService2.tsx",
+        "extends": "CfConnectMoreSocialMediaPlatformsAndSmsmmsService2Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "CfConnectMoreSocialMediaPlatformsAndSmsmmsService2Controller",
+            "path": "./CfConnectMoreSocialMediaPlatformsAndSmsmmsService2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfConnectMoreSocialMediaPlatformsAndSmsmmsService2Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CfConnectMoreSocialMediaPlatformsAndSmsmmsService2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CfConnectMoreSocialMediaPlatformsAndSmsmmsService2Block": {
+        "file": "CfConnectMoreSocialMediaPlatformsAndSmsmmsService2Block.tsx",
+        "extends": "CfConnectMoreSocialMediaPlatformsAndSmsmmsService2Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "CfConnectMoreSocialMediaPlatformsAndSmsmmsService2Controller",
+            "path": "./CfConnectMoreSocialMediaPlatformsAndSmsmmsService2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfConnectMoreSocialMediaPlatformsAndSmsmmsService2Controller"
+          }
+        ]
+      }
+    }
+  }
+}

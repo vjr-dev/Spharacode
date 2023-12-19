@@ -1,0 +1,65 @@
+{
+  "id": "CfCustomAlerts2",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/CfCustomAlerts2",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CfCustomAlerts2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CfCustomAlerts2": {
+        "file": "CfCustomAlerts2.tsx",
+        "extends": "CfCustomAlerts2Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "CfCustomAlerts2Controller",
+            "path": "./CfCustomAlerts2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfCustomAlerts2Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CfCustomAlerts2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CfCustomAlerts2Block": {
+        "file": "CfCustomAlerts2Block.tsx",
+        "extends": "CfCustomAlerts2Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "CfCustomAlerts2Controller",
+            "path": "./CfCustomAlerts2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfCustomAlerts2Controller"
+          }
+        ]
+      }
+    }
+  }
+}

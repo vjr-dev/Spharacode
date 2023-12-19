@@ -1,0 +1,65 @@
+{
+  "id": "CfDropboxIntegration2",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/CfDropboxIntegration2",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CfDropboxIntegration2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CfDropboxIntegration2": {
+        "file": "CfDropboxIntegration2.tsx",
+        "extends": "CfDropboxIntegration2Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "CfDropboxIntegration2Controller",
+            "path": "./CfDropboxIntegration2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfDropboxIntegration2Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CfDropboxIntegration2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CfDropboxIntegration2Block": {
+        "file": "CfDropboxIntegration2Block.tsx",
+        "extends": "CfDropboxIntegration2Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "CfDropboxIntegration2Controller",
+            "path": "./CfDropboxIntegration2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfDropboxIntegration2Controller"
+          }
+        ]
+      }
+    }
+  }
+}

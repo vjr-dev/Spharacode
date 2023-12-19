@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tutorials User navigates to Tutorials 1`] = `
+<MockedAppIntroSlider
+  activeDotStyle={
+    Object {
+      "backgroundColor": "#f07233",
+      "bottom": 1209,
+    }
+  }
+  data={
+    Array [
+      Object {
+        "image": Object {
+          "testUri": "../../../packages/blocks/Tutorials/assets/image_illustration.png",
+        },
+        "text": "Often feel vulnerable when you are alone ?",
+      },
+      Object {
+        "image": Object {
+          "testUri": "../../../packages/blocks/Tutorials/assets/image_illustration2.png",
+        },
+        "text": "Ensure your safety in unsafe circumstances by ON-HAND emergency Button at all times.",
+      },
+      Object {
+        "image": Object {
+          "testUri": "../../../packages/blocks/Tutorials/assets/image_illustration3.png",
+        },
+        "text": "SHAKE IT gesture to save you from the hassle of unlocking.",
+      },
+      Object {
+        "image": Object {
+          "testUri": "../../../packages/blocks/Tutorials/assets/image_illustration4.png",
+        },
+        "text": "Can integrate with the social media applications to broaden your security network.",
+      },
+      Object {
+        "image": Object {
+          "testUri": "../../../packages/blocks/Tutorials/assets/image_illustration5.png",
+        },
+        "text": "Use voice recognition to contact help even when you can't reach your phone. ",
+      },
+    ]
+  }
+  dotStyle={
+    Object {
+      "backgroundColor": "#3f3f3f",
+      "bottom": 1209,
+    }
+  }
+  renderItem={[Function]}
+  showDoneButton={false}
+  showNextButton={false}
+  testID="AppintroSliderID"
+/>
+`;
+
+exports[`Tutorials User navigates to Tutorials 2`] = `
+<View
+  style={
+    Object {
+      "width": 750,
+    }
+  }
+>
+  <StatusBar
+    animated={true}
+    backgroundColor="#454545"
+    barStyle="light-content"
+    showHideTransition="slide"
+  />
+  <ImageBackground
+    source={
+      Object {
+        "testUri": "../../../packages/blocks/Tutorials/assets/image_background-1.png",
+      }
+    }
+    style={
+      Object {
+        "height": 1334,
+        "width": 750,
+      }
+    }
+  >
+    <ImageBackground
+      source={
+        Object {
+          "testUri": "../../../packages/blocks/Tutorials/assets/image_background-2.png",
+        }
+      }
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 1334,
+          "justifyContent": "center",
+          "width": 750,
+        }
+      }
+    >
+      <Image
+        resizeMode="contain"
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/Tutorials/assets/image_illustration.png",
+          }
+        }
+        style={
+          Object {
+            "alignSelf": "center",
+            "height": 150,
+            "marginBottom": 40,
+            "width": 150,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontSize": 20,
+            "height": 150,
+            "marginTop": 20,
+            "textAlign": "center",
+            "width": 250,
+          }
+        }
+      >
+        Often feel vulnerable when you are alone ?
+      </Text>
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+        testID="btnclickID"
+      >
+        <Text
+          style={
+            Object {
+              "color": "#f07233",
+              "fontSize": 15,
+              "marginTop": 50,
+              "textAlign": "center",
+            }
+          }
+        >
+          SKIP
+        </Text>
+      </TouchableOpacity>
+    </ImageBackground>
+  </ImageBackground>
+</View>
+`;

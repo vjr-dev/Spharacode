@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Conversation Screen User navigates to ConversationScreen 1`] = `
+<ForwardRef(SafeAreaView)
+  style={
+    Object {
+      "backgroundColor": "#454545",
+      "flex": 1,
+      "width": 750,
+    }
+  }
+>
+  <StatusBar
+    animated={true}
+    backgroundColor="#454545"
+    barStyle="light-content"
+    showHideTransition="slide"
+  />
+  <ImageBackground
+    source={
+      Object {
+        "testUri": "../../../packages/blocks/ChatInSocial/assets/image_background-1.png",
+      }
+    }
+    style={
+      Object {
+        "flex": 1,
+        "height": "100%",
+        "width": 750,
+      }
+    }
+  >
+    <ImageBackground
+      source={
+        Object {
+          "testUri": "../../../packages/blocks/ChatInSocial/assets/image_background-2.png",
+        }
+      }
+      style={
+        Object {
+          "flex": 1,
+          "height": "100%",
+          "width": 750,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "rgba(255,138,73,1)",
+            "flexDirection": "row",
+            "height": 63,
+          }
+        }
+      >
+        <ForwardRef
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "height": "100%",
+              "justifyContent": "center",
+              "width": 60,
+            }
+          }
+          testID="upperBackButton"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/ChatInSocial/assets/image_back.png",
+              }
+            }
+            style={
+              Object {
+                "height": 18,
+                "tintColor": "rgb(255,255,255)",
+                "width": 18,
+              }
+            }
+          />
+        </ForwardRef>
+        <View
+          style={
+            Object {
+              "borderRadius": 25,
+              "height": 50,
+              "justifyContent": "center",
+              "width": 50,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "rgba(255,211,154,1)",
+                "borderRadius": 25,
+                "height": 50,
+                "justifyContent": "center",
+                "width": 50,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "black",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                  "textTransform": "uppercase",
+                }
+              }
+            />
+          </View>
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "rgb(255,255,255)",
+              "fontSize": 15,
+              "paddingLeft": 10,
+            }
+          }
+        />
+      </View>
+      <GiftedChat
+        bottomOffset={18}
+        inverted={true}
+        isCustomViewBottom={true}
+        lightboxProps={
+          Object {
+            "useNativeDriver": true,
+          }
+        }
+        messages={Array []}
+        minInputToolbarHeight={70}
+        onInputTextChanged={[Function]}
+        renderActions={[Function]}
+        renderBubble={[Function]}
+        renderComposer={[Function]}
+        renderInputToolbar={[Function]}
+        renderLoading={[Function]}
+        renderMessageImage={[Function]}
+        renderSend={[Function]}
+        scrollToBottom={true}
+        showUserAvatar={false}
+        testID="giftChat"
+        text=""
+        user={
+          Object {
+            "_id": "",
+          }
+        }
+      />
+    </ImageBackground>
+  </ImageBackground>
+</ForwardRef(SafeAreaView)>
+`;

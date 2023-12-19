@@ -1,0 +1,40 @@
+{
+  "id": "DialDelay",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/DialDelay",
+  "assembler-adapters": [
+    "DialDelayAdapter"
+  ],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "DialDelay"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "DialDelay"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "DialDelay": {
+        "file": "DialDelay.tsx",
+        "extends": "DialDelayController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "DialDelayController",
+            "path": "./DialDelayController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./DialDelayController"
+          }
+        ]
+      }
+    }
+  }
+  
+}

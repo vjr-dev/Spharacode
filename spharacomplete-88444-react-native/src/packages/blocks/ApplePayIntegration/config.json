@@ -1,0 +1,65 @@
+{
+  "id": "ApplePayIntegration",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/ApplePayIntegration",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ApplePayIntegration"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ApplePayIntegration": {
+        "file": "ApplePayIntegration.tsx",
+        "extends": "ApplePayIntegrationController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ApplePayIntegrationController",
+            "path": "./ApplePayIntegrationController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ApplePayIntegrationController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ApplePayIntegration"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ApplePayIntegrationBlock": {
+        "file": "ApplePayIntegrationBlock.tsx",
+        "extends": "ApplePayIntegrationController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ApplePayIntegrationController",
+            "path": "./ApplePayIntegrationController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ApplePayIntegrationController"
+          }
+        ]
+      }
+    }
+  }
+}

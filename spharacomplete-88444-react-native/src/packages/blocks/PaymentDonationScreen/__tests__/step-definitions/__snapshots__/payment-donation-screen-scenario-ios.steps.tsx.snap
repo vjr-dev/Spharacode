@@ -1,0 +1,1039 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Payment Donation Screen User navigates to Payment Donation Screen 1`] = `
+<SafeAreaView
+  style={
+    Object {
+      "backgroundColor": "rgba(255,138,73,1)",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "width": 750,
+      }
+    }
+  >
+    <ImageBackground
+      source={
+        Object {
+          "testUri": "../../../packages/blocks/PaymentDonationScreen/assets/image_background-1.png",
+        }
+      }
+      style={
+        Object {
+          "height": 1334,
+          "width": 750,
+        }
+      }
+    >
+      <ImageBackground
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/PaymentDonationScreen/assets/image_background-2.png",
+          }
+        }
+        style={
+          Object {
+            "alignItems": "center",
+            "height": "100%",
+            "width": 750,
+          }
+        }
+      >
+        <KeyboardAvoidingView
+          behavior="height"
+          enabled={true}
+          keyboardVerticalOffset={1}
+        >
+          <StatusBar
+            animated={false}
+            backgroundColor="#f17234"
+            barStyle="default"
+            showHideTransition="fade"
+          />
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "rgba(255,138,73,1)",
+                "flexDirection": "row",
+                "height": undefined,
+                "width": 750,
+              }
+            }
+          >
+            <TouchableOpacity
+              activeOpacity={0.2}
+              onPress={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "height": "90%",
+                  "justifyContent": "center",
+                  "width": "15%",
+                }
+              }
+              testID="backButton"
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../packages/blocks/PaymentDonationScreen/assets/image_back.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 15,
+                    "tintColor": "#404040",
+                    "width": 15,
+                  }
+                }
+              />
+            </TouchableOpacity>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "width": "70%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#404040",
+                    "fontSize": undefined,
+                    "fontWeight": "700",
+                  }
+                }
+              >
+                Make payement of
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "height": "100%",
+                  "width": "15%",
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "alignSelf": "center",
+                "backgroundColor": "rgba(255,138,73,1)",
+                "height": 120,
+                "justifyContent": "center",
+                "width": 750,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "rgb(255,255,255)",
+                  "fontSize": 35,
+                }
+              }
+            >
+              ₹ 
+              1
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "rgba(255,211,154,1)",
+                  "borderRadius": 50,
+                  "justifyContent": "center",
+                  "marginTop": 5,
+                  "paddingHorizontal": 20,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 15,
+                  }
+                }
+              >
+                pending..
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "alignSelf": "center",
+                "height": 50,
+                "justifyContent": "center",
+                "marginTop": 25,
+                "width": 730,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#a1a1a1",
+                }
+              }
+            >
+              Send payment using any of the following methods.
+            </Text>
+          </View>
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Object {
+                "alignSelf": "center",
+                "backgroundColor": "#515151",
+                "borderRadius": 50,
+                "flexDirection": "row",
+                "height": 60,
+                "justifyContent": "space-between",
+                "marginTop": 25,
+                "width": 730,
+              }
+            }
+            testID="gPayButton"
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/PaymentDonationScreen/assets/google_pay.png",
+                }
+              }
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "backgroundColor": "rgb(255,255,255)",
+                  "borderRadius": 50,
+                  "height": 40,
+                  "marginLeft": 10,
+                  "width": 40,
+                }
+              }
+            />
+            <Text
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "color": "#a1a1a1",
+                  "width": "65%",
+                }
+              }
+            >
+              Google Pay
+            </Text>
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/PaymentDonationScreen/assets/next.png",
+                }
+              }
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "height": 30,
+                  "marginRight": 10,
+                  "opacity": 0.5,
+                  "tintColor": "#a1a1a1",
+                  "width": 30,
+                }
+              }
+            />
+          </TouchableOpacity>
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Object {
+                "alignSelf": "center",
+                "backgroundColor": "#515151",
+                "borderRadius": 50,
+                "flexDirection": "row",
+                "height": 60,
+                "justifyContent": "space-between",
+                "marginTop": 25,
+                "width": 730,
+              }
+            }
+            testID="rPaybutton"
+          >
+            <Image
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "backgroundColor": "rgb(255,255,255)",
+                  "borderRadius": 50,
+                  "height": 40,
+                  "marginLeft": 10,
+                  "width": 40,
+                }
+              }
+            />
+            <Text
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "color": "#a1a1a1",
+                  "width": "65%",
+                }
+              }
+            >
+              REZORPAY
+            </Text>
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/PaymentDonationScreen/assets/next.png",
+                }
+              }
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "height": 30,
+                  "marginRight": 10,
+                  "opacity": 0.5,
+                  "tintColor": "#a1a1a1",
+                  "width": 30,
+                }
+              }
+            />
+          </TouchableOpacity>
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Object {
+                "alignSelf": "center",
+                "backgroundColor": "#515151",
+                "borderRadius": 50,
+                "flexDirection": "row",
+                "height": 60,
+                "justifyContent": "space-between",
+                "marginTop": 25,
+                "width": 730,
+              }
+            }
+            testID="stripePayButton"
+          >
+            <Image
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "backgroundColor": "rgb(255,255,255)",
+                  "borderRadius": 50,
+                  "height": 40,
+                  "marginLeft": 10,
+                  "width": 40,
+                }
+              }
+            />
+            <Text
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "color": "#a1a1a1",
+                  "width": "65%",
+                }
+              }
+            >
+              STRIPE PAY
+            </Text>
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/PaymentDonationScreen/assets/next.png",
+                }
+              }
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "height": 30,
+                  "marginRight": 10,
+                  "opacity": 0.5,
+                  "tintColor": "#a1a1a1",
+                  "width": 30,
+                }
+              }
+            />
+          </TouchableOpacity>
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Object {
+                "alignSelf": "center",
+                "backgroundColor": "#515151",
+                "borderRadius": 50,
+                "flexDirection": "row",
+                "height": 60,
+                "justifyContent": "space-between",
+                "marginTop": 25,
+                "width": 730,
+              }
+            }
+            testID="applePayButton"
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/PaymentDonationScreen/assets/apple_pay.png",
+                }
+              }
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "backgroundColor": "rgb(255,255,255)",
+                  "borderRadius": 50,
+                  "height": 40,
+                  "marginLeft": 10,
+                  "width": 40,
+                }
+              }
+            />
+            <Text
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "color": "#a1a1a1",
+                  "width": "65%",
+                }
+              }
+            >
+              Apple pay
+            </Text>
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/PaymentDonationScreen/assets/next.png",
+                }
+              }
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "height": 30,
+                  "marginRight": 10,
+                  "opacity": 0.5,
+                  "tintColor": "#a1a1a1",
+                  "width": 30,
+                }
+              }
+            />
+          </TouchableOpacity>
+          <Component
+            hardwareAccelerated={false}
+            transparent={true}
+            visible={false}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "backgroundColor": "rgba(255,138,73,1)",
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "width": "100%",
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../packages/blocks/PaymentDonationScreen/assets/tick.png",
+                  }
+                }
+                style={
+                  Object {
+                    "alignSelf": "center",
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "fontSize": 35,
+                    "marginTop": 75,
+                  }
+                }
+              >
+                Successful!
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "rgb(255,255,255)",
+                    "fontSize": 18,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                You donate ₹ 
+                1
+                 to 
+                Police officers
+              </Text>
+              <TouchableOpacity
+                activeOpacity={0.2}
+                onPress={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "borderRadius": 50,
+                    "borderStyle": "dashed",
+                    "borderWidth": 1,
+                    "height": 50,
+                    "justifyContent": "center",
+                    "marginTop": 75,
+                    "width": 730,
+                  }
+                }
+                testID="doneButton"
+              >
+                <Text>
+                  DONE
+                </Text>
+              </TouchableOpacity>
+            </View>
+          </Component>
+        </KeyboardAvoidingView>
+      </ImageBackground>
+    </ImageBackground>
+  </View>
+</SafeAreaView>
+`;
+
+exports[`Payment Donation Screen User navigates to Payment Donation Screen 2`] = `
+<SafeAreaView
+  style={
+    Object {
+      "backgroundColor": "rgba(255,138,73,1)",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "width": 750,
+      }
+    }
+  >
+    <ImageBackground
+      source={
+        Object {
+          "testUri": "../../../packages/blocks/PaymentDonationScreen/assets/image_background-1.png",
+        }
+      }
+      style={
+        Object {
+          "height": 1334,
+          "width": 750,
+        }
+      }
+    >
+      <ImageBackground
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/PaymentDonationScreen/assets/image_background-2.png",
+          }
+        }
+        style={
+          Object {
+            "alignItems": "center",
+            "height": "100%",
+            "width": 750,
+          }
+        }
+      >
+        <KeyboardAvoidingView
+          behavior="height"
+          enabled={true}
+          keyboardVerticalOffset={1}
+        >
+          <StatusBar
+            animated={false}
+            backgroundColor="#f17234"
+            barStyle="default"
+            showHideTransition="fade"
+          />
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "rgba(255,138,73,1)",
+                "flexDirection": "row",
+                "height": undefined,
+                "width": 750,
+              }
+            }
+          >
+            <TouchableOpacity
+              activeOpacity={0.2}
+              onPress={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "height": "90%",
+                  "justifyContent": "center",
+                  "width": "15%",
+                }
+              }
+              testID="backButton"
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../packages/blocks/PaymentDonationScreen/assets/image_back.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 15,
+                    "tintColor": "#404040",
+                    "width": 15,
+                  }
+                }
+              />
+            </TouchableOpacity>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "width": "70%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#404040",
+                    "fontSize": undefined,
+                    "fontWeight": "700",
+                  }
+                }
+              >
+                Make payement of
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "height": "100%",
+                  "width": "15%",
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "alignSelf": "center",
+                "backgroundColor": "rgba(255,138,73,1)",
+                "height": 120,
+                "justifyContent": "center",
+                "width": 750,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "rgb(255,255,255)",
+                  "fontSize": 35,
+                }
+              }
+            >
+              ₹ 
+              1
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "rgba(255,211,154,1)",
+                  "borderRadius": 50,
+                  "justifyContent": "center",
+                  "marginTop": 5,
+                  "paddingHorizontal": 20,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 15,
+                  }
+                }
+              >
+                pending..
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "alignSelf": "center",
+                "height": 50,
+                "justifyContent": "center",
+                "marginTop": 25,
+                "width": 730,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#a1a1a1",
+                }
+              }
+            >
+              Send payment using any of the following methods.
+            </Text>
+          </View>
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Object {
+                "alignSelf": "center",
+                "backgroundColor": "#515151",
+                "borderRadius": 50,
+                "flexDirection": "row",
+                "height": 60,
+                "justifyContent": "space-between",
+                "marginTop": 25,
+                "width": 730,
+              }
+            }
+            testID="gPayButton"
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/PaymentDonationScreen/assets/google_pay.png",
+                }
+              }
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "backgroundColor": "rgb(255,255,255)",
+                  "borderRadius": 50,
+                  "height": 40,
+                  "marginLeft": 10,
+                  "width": 40,
+                }
+              }
+            />
+            <Text
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "color": "#a1a1a1",
+                  "width": "65%",
+                }
+              }
+            >
+              Google Pay
+            </Text>
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/PaymentDonationScreen/assets/next.png",
+                }
+              }
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "height": 30,
+                  "marginRight": 10,
+                  "opacity": 0.5,
+                  "tintColor": "#a1a1a1",
+                  "width": 30,
+                }
+              }
+            />
+          </TouchableOpacity>
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Object {
+                "alignSelf": "center",
+                "backgroundColor": "#515151",
+                "borderRadius": 50,
+                "flexDirection": "row",
+                "height": 60,
+                "justifyContent": "space-between",
+                "marginTop": 25,
+                "width": 730,
+              }
+            }
+            testID="rPaybutton"
+          >
+            <Image
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "backgroundColor": "rgb(255,255,255)",
+                  "borderRadius": 50,
+                  "height": 40,
+                  "marginLeft": 10,
+                  "width": 40,
+                }
+              }
+            />
+            <Text
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "color": "#a1a1a1",
+                  "width": "65%",
+                }
+              }
+            >
+              REZORPAY
+            </Text>
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/PaymentDonationScreen/assets/next.png",
+                }
+              }
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "height": 30,
+                  "marginRight": 10,
+                  "opacity": 0.5,
+                  "tintColor": "#a1a1a1",
+                  "width": 30,
+                }
+              }
+            />
+          </TouchableOpacity>
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Object {
+                "alignSelf": "center",
+                "backgroundColor": "#515151",
+                "borderRadius": 50,
+                "flexDirection": "row",
+                "height": 60,
+                "justifyContent": "space-between",
+                "marginTop": 25,
+                "width": 730,
+              }
+            }
+            testID="stripePayButton"
+          >
+            <Image
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "backgroundColor": "rgb(255,255,255)",
+                  "borderRadius": 50,
+                  "height": 40,
+                  "marginLeft": 10,
+                  "width": 40,
+                }
+              }
+            />
+            <Text
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "color": "#a1a1a1",
+                  "width": "65%",
+                }
+              }
+            >
+              STRIPE PAY
+            </Text>
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/PaymentDonationScreen/assets/next.png",
+                }
+              }
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "height": 30,
+                  "marginRight": 10,
+                  "opacity": 0.5,
+                  "tintColor": "#a1a1a1",
+                  "width": 30,
+                }
+              }
+            />
+          </TouchableOpacity>
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Object {
+                "alignSelf": "center",
+                "backgroundColor": "#515151",
+                "borderRadius": 50,
+                "flexDirection": "row",
+                "height": 60,
+                "justifyContent": "space-between",
+                "marginTop": 25,
+                "width": 730,
+              }
+            }
+            testID="applePayButton"
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/PaymentDonationScreen/assets/apple_pay.png",
+                }
+              }
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "backgroundColor": "rgb(255,255,255)",
+                  "borderRadius": 50,
+                  "height": 40,
+                  "marginLeft": 10,
+                  "width": 40,
+                }
+              }
+            />
+            <Text
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "color": "#a1a1a1",
+                  "width": "65%",
+                }
+              }
+            >
+              Apple pay
+            </Text>
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/PaymentDonationScreen/assets/next.png",
+                }
+              }
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "height": 30,
+                  "marginRight": 10,
+                  "opacity": 0.5,
+                  "tintColor": "#a1a1a1",
+                  "width": 30,
+                }
+              }
+            />
+          </TouchableOpacity>
+          <Component
+            hardwareAccelerated={false}
+            transparent={true}
+            visible={false}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "backgroundColor": "rgba(255,138,73,1)",
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "width": "100%",
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../packages/blocks/PaymentDonationScreen/assets/tick.png",
+                  }
+                }
+                style={
+                  Object {
+                    "alignSelf": "center",
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "fontSize": 35,
+                    "marginTop": 75,
+                  }
+                }
+              >
+                Successful!
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "rgb(255,255,255)",
+                    "fontSize": 18,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                You donate ₹ 
+                1
+                 to 
+                Police officers
+              </Text>
+              <TouchableOpacity
+                activeOpacity={0.2}
+                onPress={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "borderRadius": 50,
+                    "borderStyle": "dashed",
+                    "borderWidth": 1,
+                    "height": 50,
+                    "justifyContent": "center",
+                    "marginTop": 75,
+                    "width": 730,
+                  }
+                }
+                testID="doneButton"
+              >
+                <Text>
+                  DONE
+                </Text>
+              </TouchableOpacity>
+            </View>
+          </Component>
+        </KeyboardAvoidingView>
+      </ImageBackground>
+    </ImageBackground>
+  </View>
+</SafeAreaView>
+`;

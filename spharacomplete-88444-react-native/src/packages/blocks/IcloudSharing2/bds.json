@@ -1,0 +1,54 @@
+{
+  "bds": {
+    "name": "IcloudSharing2",
+    "id": "IcloudSharing2",
+    "platform": [
+      "desktop",
+      "mobile"
+    ],
+    "author": "CMT",
+    "summary": null,
+    "license": "BSD",
+    "version": "1.0.0",
+    "pages": [
+      {
+        "IcloudSharing2": {
+          "hotspots": [
+            {
+              "type": "input",
+              "id": "txtInput",
+              "options": [
+                "mandatory",
+                "enabled"
+              ]
+            },
+            {
+              "type": "input",
+              "id": "btnShowHide",
+              "options": [
+                "mandatory",
+                "enabled"
+              ]
+            },
+            {
+              "type": "output",
+              "id": "txtSaved",
+              "options": [
+              ]
+            },
+            {
+              "type": "navigation",
+              "id": "btnExample",
+              "options": [
+                "target",
+                "navigationTransition",
+                "navigationType",
+                "enabled"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
